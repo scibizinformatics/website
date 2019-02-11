@@ -2,7 +2,7 @@
   <div id="footer">
     <b-container>
       <b-row>
-        <b-col sm="12" md="4">
+        <b-col sm="12" md="4" class="footer-col">
           <img src="../assets/logo.png" height="40">
           <p>
             2/F CFI Building, Maharlika Highway<br>
@@ -10,7 +10,7 @@
             6501 Philippines
           </p>
         </b-col>
-        <b-col sm="12" md="4">
+        <b-col sm="12" md="4" class="footer-col">
           <h5>Contacts</h5>
           <p>
             Email: info@scibizinformatics.com<br>
@@ -18,7 +18,7 @@
             Mobile: (+63) 999 229 7420 (Smart)
           </p>
         </b-col>
-        <b-col id="social" sm="12" md="4">
+        <b-col id="social" sm="12" md="4" class="footer-col">
           <h5>Follow Us</h5>
           <a href="https://www.facebook.com/scibizinformatics" target="_blank">
             <img src="../assets/facebook_icon.svg" height="50">
@@ -65,6 +65,9 @@ export default {
   margin-bottom: 15px;
   font-size: 14px;
   color: grey;
+  text-align: center;
+}
+.footer-col {
   text-align: center;
 }
 </style>
