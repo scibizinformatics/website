@@ -7,7 +7,7 @@
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
         <b-navbar-brand to="/">
-          <img id="logo" src="./assets/logo.png" height="40">
+          <img id="logo" src="./assets/logo.png" height="50">
         </b-navbar-brand>
 
         <b-collapse is-nav id="nav_collapse">
@@ -65,10 +65,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 40px;
   background: white;
 }
-#logo {
-  margin-top: 4px;
-}
 a.active {
   color: #0044aa !important;
+  font-weight: 450;
 }
 </style>
