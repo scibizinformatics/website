@@ -1,0 +1,52 @@
+<template>
+  <div class="home">
+    <b-carousel
+      id="carousel"
+      style="text-shadow: 1px 1px 2px #333;"
+      indicators
+      controls
+      background="#ababab"
+      :interval="4000"
+      img-width="1024"
+      img-height="480"
+    >
+
+      <!-- Text slides with image -->
+      <b-carousel-slide
+        :img-src="require('../assets/slider_1.png')"
+      ></b-carousel-slide>
+
+      <!-- Text slides with image -->
+      <b-carousel-slide
+        :img-src="require('../assets/slider_2.png')"
+      ></b-carousel-slide>
+
+    </b-carousel>
+
+    <div id="call-to-action">
+      <b-row style="padding: 10px;">
+        <b-col sm="12" md="10" id="cta-text">
+          <span>SciBiz Informatics</span> helps power the digital transformation of your business.
+        </b-col>
+        <b-col sm="12" md="2" style="padding: 10px;">
+          <b-button variant="primary">Talk To Us</b-button>
+        </b-col>
+      </b-row>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+#carousel h1 {
+  color: black;
+}
+#call-to-action {
+  margin-top: 20px;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+#cta-text {
+  font-size: 22px;
+  line-height: 55px;
+}
+</style>
