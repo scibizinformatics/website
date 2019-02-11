@@ -50,6 +50,11 @@
 import Footer from '@/components/Footer.vue'
 
 export default {
+  data () {
+    return {
+      authenticated: false
+    }
+  },
   components: {
     Footer
   }

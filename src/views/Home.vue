@@ -29,12 +29,29 @@
           <span>SciBiz Informatics</span> helps power the digital transformation of your business.
         </b-col>
         <b-col sm="12" md="2" style="padding: 10px; text-align: center;">
-          <b-button variant="primary">Talk To Us</b-button>
+          <b-button variant="primary" @click="showContactFormModal">Talk To Us</b-button>
         </b-col>
       </b-row>
     </div>
+
+    <ContactFormModal ref="contactForm" />
   </div>
 </template>
+
+<script>
+import ContactFormModal from '../components/ContactFormModal.vue'
+
+export default {
+  components: {
+    ContactFormModal
+  },
+  methods: {
+    showContactFormModal () {
+      this.$refs.contactForm.showModal()
+    }
+  }
+}
+</script>
 
 <style scoped>
 #carousel h1 {

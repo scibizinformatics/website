@@ -11,7 +11,7 @@
 
         <p>We build custom software for modern web browsers and mobile devices. We have been building software programs for clients from all over the world (mostly from US, Europe, and Australia).</p>
 
-        <p>Our main technology stack is Python on the backend (using Django or Flask) and Javascript/HTML5/CSS on the frontend (using Angular, jQuery, Bootstrap). We deploy our applications to the cloud using Heroku, AWS, or DigitalOcean.</p>
+        <p>Our main technology stack is Python on the backend (using Django or Flask) and Javascript/HTML5/CSS on the frontend (using Angular, jQuery, Bootstrap). We deploy our applications to the cloud using Google Cloud Platform, Amazon Web Services, or DigitalOcean.</p>
 
         <p>We follow the agile methodology and can adopt test-driven development and/or continuous integration for large scale projects.</p>
 
