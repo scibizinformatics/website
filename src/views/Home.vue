@@ -28,7 +28,7 @@
         <b-col sm="12" md="10" id="cta-text">
           <span>SciBiz Informatics</span> helps power the digital transformation of your business.
         </b-col>
-        <b-col sm="12" md="2" style="padding: 10px;">
+        <b-col sm="12" md="2" style="padding: 10px; text-align: center;">
           <b-button variant="primary">Talk To Us</b-button>
         </b-col>
       </b-row>
@@ -47,6 +47,10 @@
 }
 #cta-text {
   font-size: 22px;
-  line-height: 55px;
+  padding: 12px 12px 12px 30px;
+}
+#cta-text span {
+  color: #0044aa;
+  font-weight: 600;
 }
 </style>
