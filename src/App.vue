@@ -6,8 +6,12 @@
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-        <b-navbar-brand to="/">
-          <img id="logo" src="./assets/logo.png" height="50">
+        <b-navbar-brand to="/" v-if="$mq === 'sm'">
+          SciBiz Informatics
+        </b-navbar-brand>
+
+        <b-navbar-brand to="/" v-else>
+          <img id="logo" src="./assets/logo.png" height="41">
         </b-navbar-brand>
 
         <b-collapse is-nav id="nav_collapse">

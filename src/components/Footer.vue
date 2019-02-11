@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col sm="12" md="4" class="footer-col">
-          <img src="../assets/logo.png" height="40">
+          <img src="../assets/logo.png" height="41">
           <p>
             2/F CFI Building, Maharlika Highway<br>
             Brgy. Guindapunan, Palo, Leyte<br>
@@ -21,16 +21,16 @@
         <b-col id="social" sm="12" md="4" class="footer-col">
           <h5>Follow Us</h5>
           <a href="https://www.facebook.com/scibizinformatics" target="_blank">
-            <img src="../assets/facebook_icon.svg" height="50">
+            <img src="../assets/facebook_icon.svg" height="40">
           </a>
           <a href="https://twitter.com/scibizin4matics" target="_blank">
-            <img src="../assets/twitter_icon.svg" height="50">
+            <img src="../assets/twitter_icon.svg" height="40">
           </a>
           <a href="https://www.linkedin.com/company/scibiz-informatics" target="_blank">
-            <img src="../assets/linkedin_icon.svg" height="50">
+            <img src="../assets/linkedin_icon.svg" height="40">
           </a>
           <a href="https://www.youtube.com/channel/UCxm55y3UaQIVnwtbBRp0dhQ?view_as=subscriber" target="_blank">
-            <img src="../assets/youtube_icon.svg" height="50">
+            <img src="../assets/youtube_icon.svg" height="40">
           </a>
         </b-col>
       </b-row>

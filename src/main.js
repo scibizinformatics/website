@@ -5,7 +5,16 @@ import store from './store'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import VueMq from 'vue-mq'
 
+Vue.use(VueMq, {
+  breakpoints: {
+    sm: 450,
+    md: 1250,
+    lg: Infinity
+  },
+  defaultBreakpoint: 'sm'
+})
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
