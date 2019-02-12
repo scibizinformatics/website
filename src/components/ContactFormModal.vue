@@ -39,7 +39,7 @@ import VueRecaptcha from 'vue-recaptcha'
 export default {
   data () {
     return {
-      sitekey: '6LfqrpAUAAAAAPM-GM4fgU1-DyZrm4Dg_wEOqI-d',
+      sitekey: '6Ld27pAUAAAAAGq3D0WIqaZPCjfCi3YUNtx-sVSA',
       showSubmitButton: false
     }
   },
