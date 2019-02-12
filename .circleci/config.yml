@@ -78,7 +78,7 @@ workflows:
           filters:
             branches:
               only: master
-      - deploy_to_staging:
+      - deploy_to_dev:
           filters:
             branches:
               only: dev
