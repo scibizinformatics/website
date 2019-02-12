@@ -7,7 +7,7 @@
     @ok="submitContactForm"
     :hide-footer="!showSubmitButton"
   >
-    <p v-if="emailSendingSuccess === true" style="font-size: 24px; color: green;">
+    <p v-if="emailSendingSuccess === true" style="font-size: 24px; color: #808080;">
       Your message has been sent successfully! We will get in touch as soon as possible.
     </p>
     <form v-else @enter.prevent="submitContactForm">
