@@ -10,9 +10,9 @@ spec:
     app: ${PROJECT_NAME}
   type: NodePort
   ports:
-    - name: webapp
+    - name: app
       port: 80
-      targetPort: 8080
+      targetPort: 9000
       protocol: TCP
 ---
 apiVersion: apps/v1
