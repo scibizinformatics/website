@@ -6,19 +6,21 @@
       indicators
       controls
       background="#ababab"
-      :interval="4000"
+      :interval="3000"
       img-width="1024"
       img-height="480"
     >
 
-      <!-- Text slides with image -->
       <b-carousel-slide
-        :img-src="require('../assets/slider_1.png')"
+        :img-src="require('../assets/sliders/slider_1.png')"
       ></b-carousel-slide>
 
-      <!-- Text slides with image -->
       <b-carousel-slide
-        :img-src="require('../assets/slider_2.png')"
+        :img-src="require('../assets/sliders/slider_2.png')"
+      ></b-carousel-slide>
+
+     <b-carousel-slide
+        :img-src="require('../assets/sliders/slider_3.png')"
       ></b-carousel-slide>
 
     </b-carousel>
