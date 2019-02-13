@@ -59,6 +59,15 @@ export default {
 }
 #social img {
   margin: 10px;
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+}
+#social img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(9%);
+  border: 2px solid #0044aa;
+  border-radius: 50%;
+  background: gray;
 }
 #copyright {
   margin-top: 15px;

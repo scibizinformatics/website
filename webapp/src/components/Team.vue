@@ -61,8 +61,8 @@ export default {
   border-radius: 50%;
   border: 1px solid lightgrey;
   width: 140px;
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%);
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
   transition: filter 1.5s;
   transition: background 2s;
   transition: border 1s;
