@@ -56,6 +56,11 @@
         </b-card>
       </b-col>
     </b-row>
+    <b-row style="margin-top: 40px;">
+      <b-col sm="12" md="3">
+        <b-button id="more-info" @click="redirectToUpwork()">Check out our Upwork profile</b-button>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -96,6 +101,11 @@ export default {
         }
       ]
     }
+  },
+  methods: {
+    redirectToUpwork () {
+      window.open('https://www.upwork.com/agencies/~01d1d8389bbc3c3804', '_blank')
+    }
   }
 }
 </script>
@@ -132,5 +142,15 @@ h4 {
   background: lightgray;
   padding: 10px 8px;
   text-align: center;
+}
+#more-info {
+  background: #e2e2e2;
+  color: gray;
+  border: 0;
+  width: 100%;
+}
+#more-info:hover {
+  background: #808080;
+  color: white;
 }
 </style>

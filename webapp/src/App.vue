@@ -31,8 +31,8 @@
               <b-dropdown-item href="#">Employee</b-dropdown-item>
               <b-dropdown-item href="#">Client</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item v-else to="/login">Login</b-nav-item> -->
-            <b-nav-item href="http://hr.scibizinformatics.com/">Employee Login</b-nav-item>
+            <b-nav-item v-else to="/login">Login</b-nav-item>
+            <b-nav-item href="http://hr.scibizinformatics.com/">Employee Login</b-nav-item> -->
           </b-navbar-nav>
 
         </b-collapse>

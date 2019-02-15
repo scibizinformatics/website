@@ -13,7 +13,7 @@
         <b-col sm="12" md="4" class="footer-col">
           <h5>Contacts</h5>
           <p>
-            Email: info@scibizinformatics.com<br>
+            Email: <img src="../assets/email.png" id="email-img"><br>
             Landline: (053) 888-2766 (PLDT)<br>
             Mobile: (+63) 999 229 7420 (Smart)
           </p>
@@ -78,5 +78,8 @@ export default {
 }
 .footer-col {
   text-align: center;
+}
+#email-img {
+  margin-top: -2px;
 }
 </style>
