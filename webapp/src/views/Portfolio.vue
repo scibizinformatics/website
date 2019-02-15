@@ -11,7 +11,7 @@
         <p>Min-Tax is the only application in the market which helps employers to significantly reduce the time spent analysing employee expenses for UK employement tax purposes whilst also maximising HMRC compliance.</p>
       </b-col>
       <b-col sm="12" md="6">
-        <img src="../assets/portfolio/mintax.png" width="100%">
+        <a href="https://www.mintax.co.uk/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/mintax.png" width="100%"></a>
       </b-col>
     </b-row>
     <b-row class="portfolio-item">
@@ -20,7 +20,7 @@
         <p>Venue is a platform which brings together members of the Volentix community to facilitate distribution of VTX and thus grow the Volentix community.</p>
       </b-col>
       <b-col sm="12" md="6">
-        <img src="../assets/portfolio/venue.png" width="100%">
+        <a href="https://venue.volentix.io/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/venue.png" width="100%"></a>
       </b-col>
     </b-row>
     <b-row class="portfolio-item">
@@ -29,7 +29,7 @@
         <p>202works is a talent marketplace where any company can quickly find the right policy advisor, advocate or lawyer for any government issue.</p>
       </b-col>
       <b-col sm="12" md="6">
-        <img src="../assets/portfolio/202works.png" width="100%">
+        <a href="https://202works.com/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/202works.png" width="100%"></a>
       </b-col>
     </b-row>
     <b-row style="margin-top: 40px;">
@@ -76,14 +76,14 @@ export default {
           clientCompany: 'Jigsaw Controls (United Kingdom)'
         },
         {
-          message: 'Great communication, and flawless execution. I loved working with Jesus. He pulled off my project very quickly, and made adjustments I asked. I will work with him again for more projects involving Raspberry Pi.',
-          clientName: 'Vernon Wharff',
-          clientCompany: 'WharffCo (United States)'
-        },
-        {
           message: "Joemar has done excellent work for us. He has excellent communication and problem solving skills. We were very impressed with his stamina, his ability to deal with tight deadlines and the quality of his work. Joemar doesn't give up until he has found a workable solution. We will definitely work with him again.",
           clientName: 'Sarah Fitzmaurice',
           clientCompany: 'Flight Level Media (Canada)'
+        },
+        {
+          message: 'Joemar did an excellent job of finishing multiple milestones within this project. It was delightful to be working with him and his team. Looking forward to our next engagement.',
+          clientName: 'Thomas Zheng',
+          clientCompany: 'Luddite Labs (United States)'
         }
       ]
     }
@@ -92,6 +92,16 @@ export default {
 </script>
 
 <style scoped>
+.portfolio-img {
+  transition: border 1s;
+  transition: filter 1s;
+  transition: -webkit-filter 1s;
+}
+.portfolio-img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: 1px solid #0044aa;
+}
 .portfolio-item {
   margin-top: 0px;
   background: #f2f2f2;
