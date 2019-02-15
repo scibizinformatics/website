@@ -5,36 +5,42 @@
         <h2>Clients</h2>
       </b-col>
     </b-row>
-    <b-row style="margin-top: 20px;" class="portfolio-item">
-      <b-col sm="12" md="6">
-        <h6><i>E-Tax Consulting Ltd. (United Kingdom)</i></h6>
-        <h4>Employee Expense Analysis Software</h4>
-        <p>Min-Tax is the only application in the market which helps employers to significantly reduce the time spent analysing employee expenses for UK employement tax purposes whilst also maximising HMRC compliance.</p>
-      </b-col>
-      <b-col sm="12" md="6">
-        <a href="https://www.mintax.co.uk/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/mintax.png" width="100%"></a>
-      </b-col>
-    </b-row>
-    <b-row class="portfolio-item">
-      <b-col sm="12" md="6">
-        <h6><i>Volentix Labs (Canada)</i></h6>
-        <h4>Community Engagement Website</h4>
-        <p>Venue is a platform which brings together members of the Volentix community to facilitate distribution of VTX and thus grow the Volentix community.</p>
-      </b-col>
-      <b-col sm="12" md="6">
-        <a href="https://venue.volentix.io/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/venue.png" width="100%"></a>
-      </b-col>
-    </b-row>
-    <b-row class="portfolio-item">
-      <b-col sm="12" md="6">
-        <h6><i>202works Inc. (United States)</i></h6>
-        <h4>Database of Public Policy Experts</h4>
-        <p>202works is a talent marketplace where any company can quickly find the right policy advisor, advocate or lawyer for any government issue.</p>
-      </b-col>
-      <b-col sm="12" md="6">
-        <a href="https://202works.com/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/202works.png" width="100%"></a>
-      </b-col>
-    </b-row>
+    <b-container>
+      <b-row style="margin-top: 20px;" class="featured-row">
+        <b-col sm="12" md="3" class="featured">FEATURED CLIENT PROJECTS</b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6><i>E-Tax Consulting Ltd. (United Kingdom)</i></h6>
+          <h4>Employee Expense Analysis Software</h4>
+          <p>Min-Tax is the only application in the market which helps employers to significantly reduce the time spent analysing employee expenses for UK employement tax purposes whilst also maximising HMRC compliance.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://www.mintax.co.uk/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/mintax.png" width="100%"></a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6><i>Volentix Labs (Canada)</i></h6>
+          <h4>Community Engagement Website</h4>
+          <p>Venue is a platform which brings together members of the Volentix community to facilitate distribution of VTX and thus grow the Volentix community.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://venue.volentix.io/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/venue.png" width="100%"></a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6><i>202works Inc. (United States)</i></h6>
+          <h4>Database of Public Policy Experts</h4>
+          <p>202works is a talent marketplace where any company can quickly find the right policy advisor, advocate or lawyer for any government issue.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://202works.com/" target="_blank"><img class="portfolio-img" src="../assets/portfolio/202works.png" width="100%"></a>
+        </b-col>
+      </b-row>
+    </b-container>
+
     <b-row style="margin-top: 40px;">
       <b-col>
         <h2>What Our Clients Say</h2>
@@ -70,7 +76,7 @@ export default {
         },
         {
           message: 'Jesus understood the requirements of our task and used our feedback to revise his work and provide the solution we wanted. Would happily use again for future jobs.',
-          clientName: 'Jeff Ferrra',
+          clientName: 'Jeff Ferrara',
           clientCompany: 'Cornick Pty. Ltd. (Australia)'
         },
         {
@@ -95,6 +101,9 @@ export default {
 </script>
 
 <style scoped>
+h4 {
+  color: #4d6b99 !important;
+}
 .portfolio-img {
   transition: border 1s;
   transition: filter 1s;
@@ -108,10 +117,20 @@ export default {
 .portfolio-item {
   margin-top: 0px;
   background: #f2f2f2;
-  padding: 40px 10px;
+  padding: 35px 10px;
 }
 .blockquote p {
   font-size: 18px;
   font-style: italic;
+}
+.featured-row {
+  margin-top: 0px;
+  background: #f2f2f2;
+}
+.featured {
+  color: white;
+  background: lightgray;
+  padding: 10px 8px;
+  text-align: center;
 }
 </style>
