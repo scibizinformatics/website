@@ -41,15 +41,10 @@
 </template>
 
 <script>
-import ContactFormModal from '../components/ContactFormModal.vue'
-
 export default {
-  components: {
-    ContactFormModal
-  },
   methods: {
     showContactFormModal () {
-      this.$refs.contactForm.showModal()
+      this.$parent.$refs.contactForm.showModal()
     }
   }
 }

@@ -42,21 +42,35 @@
         <router-view></router-view>
       </b-container>
     </b-container>
+
     <Footer />
+
+    <div id="email-us" @click="showContactFormModal">
+      <img src="./assets/email_us.png" width="30">
+    </div>
+
+    <ContactFormModal ref="contactForm" />
   </div>
 </template>
 
 <script>
 import Footer from '@/components/Footer.vue'
+import ContactFormModal from '@/components/ContactFormModal.vue'
 
 export default {
+  components: {
+    ContactFormModal,
+    Footer
+  },
   data () {
     return {
       authenticated: false
     }
   },
-  components: {
-    Footer
+  methods: {
+    showContactFormModal () {
+      this.$refs.contactForm.showModal()
+    }
   }
 }
 </script>
@@ -77,5 +91,20 @@ h1, h2, h3, h4, h5, h6 {
 a.active {
   color: #0044aa !important;
   font-weight: 450;
+}
+#email-us {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px;
+  background: #f2f2f2;
+  border: 4px solid #808080;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#email-us:hover {
+  background: #e2e2e2;
+  border: 4px solid #0044aa;
 }
 </style>
