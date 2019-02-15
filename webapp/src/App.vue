@@ -22,17 +22,17 @@
             <b-nav-item to="/" exact>Home</b-nav-item>
             <b-nav-item to="/about">About</b-nav-item>
             <b-nav-item to="/services">Services</b-nav-item>
-            <b-nav-item to="/products">Products</b-nav-item>
-            <b-nav-item to="/case-studies">Case Studies</b-nav-item>
+            <b-nav-item to="/portfolio">Portfolio</b-nav-item>
+            <!-- <b-nav-item to="/products">Products</b-nav-item>
             <b-nav-item-dropdown right v-if="authenticated">
-              <!-- Using button-content slot -->
               <template slot="button-content">
                 <em>Username</em>
               </template>
               <b-dropdown-item href="#">Employee</b-dropdown-item>
               <b-dropdown-item href="#">Client</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item v-else to="/login">Login</b-nav-item>
+            <b-nav-item v-else to="/login">Login</b-nav-item> -->
+            <b-nav-item href="http://hr.scibizinformatics.com/">Employee Login</b-nav-item>
           </b-navbar-nav>
 
         </b-collapse>
