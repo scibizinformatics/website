@@ -38,7 +38,7 @@
           title="Data Analytics"
         >
           <p class="card-text">
-            We scrape, parse, and extract data from the web and perform downstream processing and analysis. 
+            We scrape, parse, and extract data from the web and perform downstream processing and analysis.
           </p>
           <div slot="footer">
             <small class="text-muted">Numpy, Pandas, Requests, iPython/Jupyter, Matplotlib, SciKit-Learn</small>
