@@ -21,9 +21,9 @@ export default new Router({
       component: () => import('./views/Services.vue')
     },
     {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: () => import('./views/Portfolio.vue')
+      path: '/clients',
+      name: 'clients',
+      component: () => import('./views/Clients.vue')
     }
   ]
 })

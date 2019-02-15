@@ -22,7 +22,7 @@
             <b-nav-item to="/" exact>Home</b-nav-item>
             <b-nav-item to="/about">About</b-nav-item>
             <b-nav-item to="/services">Services</b-nav-item>
-            <b-nav-item to="/portfolio">Portfolio</b-nav-item>
+            <b-nav-item to="/clients">Clients</b-nav-item>
             <!-- <b-nav-item to="/products">Products</b-nav-item>
             <b-nav-item-dropdown right v-if="authenticated">
               <template slot="button-content">

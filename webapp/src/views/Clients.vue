@@ -2,11 +2,12 @@
   <b-container>
     <b-row style="margin-top: 20px;">
       <b-col>
-        <h2>Portfolio</h2>
+        <h2>Clients</h2>
       </b-col>
     </b-row>
     <b-row style="margin-top: 20px;" class="portfolio-item">
       <b-col sm="12" md="6">
+        <h6><i>E-Tax Consulting Ltd. (United Kingdom)</i></h6>
         <h4>Employee Expense Analysis Software</h4>
         <p>Min-Tax is the only application in the market which helps employers to significantly reduce the time spent analysing employee expenses for UK employement tax purposes whilst also maximising HMRC compliance.</p>
       </b-col>
@@ -16,6 +17,7 @@
     </b-row>
     <b-row class="portfolio-item">
       <b-col sm="12" md="6">
+        <h6><i>Volentix Labs (Canada)</i></h6>
         <h4>Community Engagement Website</h4>
         <p>Venue is a platform which brings together members of the Volentix community to facilitate distribution of VTX and thus grow the Volentix community.</p>
       </b-col>
@@ -25,6 +27,7 @@
     </b-row>
     <b-row class="portfolio-item">
       <b-col sm="12" md="6">
+        <h6><i>202works Inc. (United States)</i></h6>
         <h4>Database of Public Policy Experts</h4>
         <p>202works is a talent marketplace where any company can quickly find the right policy advisor, advocate or lawyer for any government issue.</p>
       </b-col>
