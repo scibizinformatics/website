@@ -37,7 +37,7 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person.png">
+        <img src="../assets/team/gevan.png">
         <div class="details">
           <span class="name">Geraldine Taganna</span><br>
           <span class="role">Admin Manager</span>
