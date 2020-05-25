@@ -33,4 +33,4 @@ spec:
     spec:
       containers:
         - name: scibizwebsite
-          image: gcr.io/scibiz-kubernetes-cluster/scibizwebsite:b707b4f1c7e2
+          image: gcr.io/scibiz-kubernetes-cluster/scibizwebsite:f258cdf74f13

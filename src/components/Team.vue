@@ -46,7 +46,7 @@
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/person_male.jpg">
         <div class="details">
-          <span class="name">Jethro Albao</span><br>
+          <span class="name">Jethro Albano</span><br>
           <span class="role">Junior Programmer</span>
         </div>
       </b-col>
