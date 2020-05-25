@@ -9,7 +9,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 9000
 
 RUN [ "chmod", "+x", "/app/entrypoint.sh" ]
 RUN [ "chmod", "+x", "/app/generate_env_file.sh" ]
