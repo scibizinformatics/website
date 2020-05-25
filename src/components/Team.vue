@@ -9,6 +9,13 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/gevan.png">
+        <div class="details">
+          <span class="name">Geraldine Taganna</span><br>
+          <span class="role">Admin Manager</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
         <img src="../assets/team/reamon.png">
         <div class="details">
           <span class="name">Reamon Sumapig</span><br>
@@ -23,24 +30,38 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person.png">
+        <img src="../assets/team/person_female.jpg">
         <div class="details">
-          <span class="name">Syryll Anne Pajares</span><br>
-          <span class="role">Multimedia Specialist</span>
+          <span class="name">Marie Edcel Balite</span><br>
+          <span class="role">Junior Programmer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person.png">
+        <img src="../assets/team/person_female.jpg">
+        <div class="details">
+          <span class="name">Sean Nicole Lino</span><br>
+          <span class="role">Junior Programmer</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_male.jpg">
+        <div class="details">
+          <span class="name">Jethro Albao</span><br>
+          <span class="role">Junior Programmer</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_male.jpg">
+        <div class="details">
+          <span class="name">Jeff Khirvy Sarmen</span><br>
+          <span class="role">Junior Programmer</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_female.jpg">
         <div class="details">
           <span class="name">Lynie Pensona</span><br>
           <span class="role">Secretary/Bookkeeper</span>
-        </div>
-      </b-col>
-      <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/gevan.png">
-        <div class="details">
-          <span class="name">Geraldine Taganna</span><br>
-          <span class="role">Admin Manager</span>
         </div>
       </b-col>
     </b-row>

@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="css">
 #backdrop, html {
   background: #e9e9e9;
 }
