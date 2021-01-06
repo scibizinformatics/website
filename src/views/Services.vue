@@ -6,7 +6,7 @@
       </b-col>
     </b-row>
     <b-row style="margin-top: 20px;">
-      <b-col>
+      <b-col sm="12" md="4">
         <b-card
           class="service-card"
           title="Web Applications"
@@ -19,7 +19,7 @@
           </div>
         </b-card>
       </b-col>
-      <b-col>
+      <b-col sm="12" md="4">
         <b-card
           class="service-card"
           title="Mobile Applications"
@@ -32,7 +32,7 @@
           </div>
         </b-card>
       </b-col>
-      <b-col>
+      <b-col sm="12" md="4">
         <b-card
           class="service-card"
           title="Data Analytics"
@@ -47,7 +47,7 @@
       </b-col>
     </b-row>
     <b-row class="second-row">
-      <b-col>
+      <b-col sm="12" md="4">
         <b-card
           class="service-card"
           title="Physical Computing"
@@ -60,7 +60,7 @@
           </div>
         </b-card>
       </b-col>
-      <b-col>
+      <b-col sm="12" md="4">
         <b-card
           class="service-card"
           title="Cloud Computing"
@@ -73,7 +73,7 @@
           </div>
         </b-card>
       </b-col>
-        <b-col>
+        <b-col sm="12" md="4">
         <b-card
           class="service-card"
           title="Business Productivity"

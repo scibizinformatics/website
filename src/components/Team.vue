@@ -30,16 +30,16 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_female.jpg">
+        <img src="../assets/team/person_male.jpg">
         <div class="details">
-          <span class="name">Marie Edcel Balite</span><br>
-          <span class="role">Junior Programmer</span>
+          <span class="name">Archie Galangue</span><br>
+          <span class="role">Programmer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/person_female.jpg">
         <div class="details">
-          <span class="name">Sean Nicole Lino</span><br>
+          <span class="name">Marie Edcel Balite</span><br>
           <span class="role">Junior Programmer</span>
         </div>
       </b-col>
