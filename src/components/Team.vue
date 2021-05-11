@@ -60,8 +60,8 @@
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/person_female.jpg">
         <div class="details">
-          <span class="name">Lynie Pensona</span><br>
-          <span class="role">Secretary/Bookkeeper</span>
+          <span class="name">Gzyll Kae Honorio</span><br>
+          <span class="role">Accounting Staff / Secretary</span>
         </div>
       </b-col>
     </b-row>
