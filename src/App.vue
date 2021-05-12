@@ -23,16 +23,6 @@
             <b-nav-item to="/about">About</b-nav-item>
             <b-nav-item to="/services">Services</b-nav-item>
             <b-nav-item to="/clients">Clients</b-nav-item>
-            <!-- <b-nav-item to="/products">Products</b-nav-item>
-            <b-nav-item-dropdown right v-if="authenticated">
-              <template slot="button-content">
-                <em>Username</em>
-              </template>
-              <b-dropdown-item href="#">Employee</b-dropdown-item>
-              <b-dropdown-item href="#">Client</b-dropdown-item>
-            </b-nav-item-dropdown>
-            <b-nav-item v-else to="/login">Login</b-nav-item>
-            <b-nav-item href="http://hr.scibizinformatics.com/">Employee Login</b-nav-item> -->
           </b-navbar-nav>
 
         </b-collapse>
@@ -45,21 +35,17 @@
 
     <Footer />
 
-    <div id="email-us" @click="showContactFormModal">
+    <div id="email-us" @click="openMessenger">
       <img src="./assets/email_us.png" width="30">
     </div>
-
-    <ContactFormModal ref="contactForm" />
   </div>
 </template>
 
 <script>
 import Footer from '@/components/Footer.vue'
-import ContactFormModal from '@/components/ContactFormModal.vue'
 
 export default {
   components: {
-    ContactFormModal,
     Footer
   },
   data () {
@@ -68,8 +54,8 @@ export default {
     }
   },
   methods: {
-    showContactFormModal () {
-      this.$refs.contactForm.showModal()
+    openMessenger () {
+      window.open('https://m.me/scibizinformatics', '_blank')
     }
   }
 }
