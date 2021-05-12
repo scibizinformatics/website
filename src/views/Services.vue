@@ -6,83 +6,57 @@
       </b-col>
     </b-row>
     <b-row style="margin-top: 20px;">
-      <b-col sm="12" md="4">
+      <b-col sm="12" md="6">
         <b-card
           class="service-card"
           title="Web Applications"
         >
           <p class="card-text">
-            We conceptualize, design, and build web applications of any size or complexity.
+            We conceptualize, design, and build web applications of any size or complexity using state-of-the-art languages and frameworks.
           </p>
           <div slot="footer">
-            <small class="text-muted">Python, Go, Django/Flask, REST, Celery, Redis, MySQL/PostgreSQL, Javascript/HTML/CSS</small>
+            <small class="text-muted">Python, Go, Django/Flask, REST, Celery, Redis, PostgreSQL, Javascript/HTML/CSS</small>
           </div>
         </b-card>
       </b-col>
-      <b-col sm="12" md="4">
+      <b-col sm="12" md="6">
         <b-card
           class="service-card"
           title="Mobile Applications"
         >
           <p class="card-text">
-            We create hybrid and native mobile apps for Android and iOS including the backend API services.
+            We create hybrid and native mobile apps for Android and iOS that can communicate with backend web services thru REST API and websockets.
           </p>
           <div slot="footer">
-            <small class="text-muted">Cordova + Javascript/HTML/CSS, Dart + Flutter, Python, Go</small>
+            <small class="text-muted">Capacitor + Javascript/HTML/CSS, Dart + Flutter, Python, Go</small>
           </div>
         </b-card>
       </b-col>
-      <b-col sm="12" md="4">
+    </b-row>
+    <b-row class="second-row">
+      <b-col sm="12" md="6">
         <b-card
           class="service-card"
           title="Data Analytics"
         >
           <p class="card-text">
-            We scrape, parse, and extract data from the web and perform downstream processing and analysis.
+            We scrape, parse, and extract data from the web and perform downstream processing and analysis in pipelines that run on elastic infrastructure that can scale on demand.
           </p>
           <div slot="footer">
             <small class="text-muted">Numpy, Pandas, Requests, iPython/Jupyter, Matplotlib, SciKit-Learn</small>
           </div>
         </b-card>
       </b-col>
-    </b-row>
-    <b-row class="second-row">
-      <b-col sm="12" md="4">
+      <b-col sm="12" md="6">
         <b-card
           class="service-card"
-          title="Physical Computing"
+          title="Blockchain & Crypto"
         >
           <p class="card-text">
-            We build interactive physical systems that combine single-board computers, sensors, and software.
+            We build blockchain applications in Bitcoin Cash, Ethereum, and Binance Smart Chain from simple tokens to full-blown decentralized applications that run on smart contracts.
           </p>
           <div slot="footer">
-            <small class="text-muted">Python, Go, Raspberry Pi, Arduino, Microcontrollers, Sensors, Electronics</small>
-          </div>
-        </b-card>
-      </b-col>
-      <b-col sm="12" md="4">
-        <b-card
-          class="service-card"
-          title="Cloud Computing"
-        >
-          <p class="card-text">
-            We create, manage, and deploy applications to the cloud using Docker and Kubernetes.
-          </p>
-          <div slot="footer">
-            <small class="text-muted">Docker, Kubernetes, Google Cloud Platform, Amazon Web Services, Digital Ocean</small>
-          </div>
-        </b-card>
-      </b-col>
-        <b-col sm="12" md="4">
-        <b-card
-          class="service-card"
-          title="Business Productivity"
-        >
-          <p class="card-text">
-            We setup and manage G Suite accounts for companies and assisting them through training and support.
-          </p>
-          <div slot="footer">
-            <small class="text-muted">Google's G Suite for Business - Gmail, Drive, Docs, Calendar, Hangouts, etc.</small>
+            <small class="text-muted">Bitcoin Cash, SLP, Ethereum, Solidity, Binance Smart Chain, Tendermint</small>
           </div>
         </b-card>
       </b-col>

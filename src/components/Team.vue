@@ -19,20 +19,13 @@
         <img src="../assets/team/reamon.png">
         <div class="details">
           <span class="name">Reamon Sumapig</span><br>
-          <span class="role">Senior Programmer</span>
+          <span class="role">Programmer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/jessie.png">
         <div class="details">
           <span class="name">Jesus Taganna, Jr.</span><br>
-          <span class="role">Senior Programmer</span>
-        </div>
-      </b-col>
-      <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
-        <div class="details">
-          <span class="name">Archie Galangue</span><br>
           <span class="role">Programmer</span>
         </div>
       </b-col>
@@ -40,21 +33,28 @@
         <img src="../assets/team/person_female.jpg">
         <div class="details">
           <span class="name">Marie Edcel Balite</span><br>
-          <span class="role">Junior Programmer</span>
+          <span class="role">Programmer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/person_male.jpg">
         <div class="details">
           <span class="name">Jethro Albano</span><br>
-          <span class="role">Junior Programmer</span>
+          <span class="role">Programmer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/person_male.jpg">
         <div class="details">
           <span class="name">Jeff Khirvy Sarmen</span><br>
-          <span class="role">Junior Programmer</span>
+          <span class="role">Programmer</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_male.jpg">
+        <div class="details">
+          <span class="name">Archie Galangue</span><br>
+          <span class="role">Programmer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">

@@ -18,7 +18,7 @@
           <p>Venue is a platform which brings together members of the Volentix community to facilitate distribution of VTX and thus grow the Volentix community.</p>
         </b-col>
         <b-col sm="12" md="6">
-          <a href="https://venue.volentix.io/" target="_blank">
+          <a href="https://volentix.io/" target="_blank">
             <img class="portfolio-img" src="../assets/portfolio/venue.png" width="100%">
           </a>
         </b-col>
@@ -55,11 +55,6 @@
             </footer>
           </blockquote>
         </b-card>
-      </b-col>
-    </b-row>
-    <b-row style="margin-top: 40px;">
-      <b-col sm="12" md="3">
-        <b-button id="more-info" @click="redirectToUpwork()">Check out our Upwork profile</b-button>
       </b-col>
     </b-row>
   </b-container>
@@ -102,14 +97,6 @@ export default {
         }
       ]
     };
-  },
-  methods: {
-    redirectToUpwork() {
-      window.open(
-        "https://www.upwork.com/agencies/~01d1d8389bbc3c3804",
-        "_blank"
-      );
-    }
   }
 };
 </script>
