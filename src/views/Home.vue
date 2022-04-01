@@ -28,7 +28,7 @@
     <div id="call-to-action">
       <b-row style="padding: 10px;">
         <b-col sm="12" md="10" id="cta-text">
-          <span>SciBiz Informatics</span> helps power the digital transformation of your business.
+          <span>SciBiz Informatics</span> is helping shape a better future a few projects at a time.
         </b-col>
         <b-col sm="12" md="2" style="padding: 10px; text-align: center;">
           <b-button variant="primary" @click="openMessenger">Talk To Us</b-button>

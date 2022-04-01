@@ -22,7 +22,8 @@
             <b-nav-item to="/" exact>Home</b-nav-item>
             <b-nav-item to="/about">About</b-nav-item>
             <b-nav-item to="/services">Services</b-nav-item>
-            <b-nav-item to="/clients">Clients</b-nav-item>
+            <b-nav-item to="/projects">Projects</b-nav-item>
+            <b-nav-item to="/jobs">Jobs</b-nav-item>
           </b-navbar-nav>
 
         </b-collapse>

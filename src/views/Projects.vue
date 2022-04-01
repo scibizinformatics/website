@@ -2,12 +2,40 @@
   <b-container>
     <b-row style="margin-top: 20px;">
       <b-col>
-        <h2>Clients</h2>
+        <h2>Projects</h2>
       </b-col>
     </b-row>
     <b-container>
       <b-row style="margin-top: 20px;" class="featured-row">
-        <b-col sm="12" md="3" class="featured">FEATURED CLIENT PROJECTS</b-col>
+        <b-col sm="12" md="3" class="featured">FEATURED PROJECTS</b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6>
+            <i>Spicenft.art</i>
+          </h6>
+          <h4>Spice NFT</h4>
+          <p>Spice token is all about recognition and showing appreciation. Hence, we launched this NFT series to recognize exceptional artistic talents and provide a new venue where their artwork can be appreciated and patronized.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://spicenft.art/" target="_blank">
+            <img class="portfolio-img" src="../assets/portfolio/spice_nft.png" width="100%">
+          </a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6>
+            <i>Apes.cash</i>
+          </h6>
+          <h4>Gambling Apes Club NFT</h4>
+          <p>A perked up version of Bored Apes in SmartBCH blockchain. Aside from having different traits permutations, we have added unique high quality specials and rares.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://apes.cash/" target="_blank">
+            <img class="portfolio-img" src="../assets/portfolio/apes_cash.png" width="100%">
+          </a>
+        </b-col>
       </b-row>
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">

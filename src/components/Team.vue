@@ -16,6 +16,13 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_female.jpg">
+        <div class="details">
+          <span class="name">Gzyll Kae Honorio</span><br>
+          <span class="role">Accounting Staff / Secretary</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
         <img src="../assets/team/reamon.png">
         <div class="details">
           <span class="name">Reamon Sumapig</span><br>
@@ -58,10 +65,24 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_female.jpg">
+        <img src="../assets/team/person_male.jpg">
         <div class="details">
-          <span class="name">Gzyll Kae Honorio</span><br>
-          <span class="role">Accounting Staff / Secretary</span>
+          <span class="name">Ron Ramano</span><br>
+          <span class="role">Programmer</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_male.jpg">
+        <div class="details">
+          <span class="name">Arnel Cabanatan</span><br>
+          <span class="role">Graphic Artist</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/person_male.jpg">
+        <div class="details">
+          <span class="name">Orly Barredo</span><br>
+          <span class="role">Graphic Artist</span>
         </div>
       </b-col>
     </b-row>

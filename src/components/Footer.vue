@@ -5,16 +5,15 @@
         <b-col sm="12" md="4" class="footer-col">
           <img src="../assets/logo.png" height="41">
           <p>
-            2/F CFI Building, Maharlika Highway<br>
-            Brgy. Guindapunan, Palo, Leyte<br>
-            6501 Philippines
+            2nd Floor YVI Center Building-B, Tabuan National Highway,<br>
+            Brgy. 77, Fatima Village, Tacloban City,
+            <br>6500 Philippines
           </p>
         </b-col>
         <b-col sm="12" md="4" class="footer-col">
           <h5>Contacts</h5>
           <p>
             Email: <img src="../assets/email.png" id="email-img"><br>
-            Landline: (053) 888-2766 (PLDT)<br>
             Mobile: (+63) 999 229 7420 (Smart)
           </p>
         </b-col>
