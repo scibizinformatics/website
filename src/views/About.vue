@@ -14,7 +14,7 @@
         <p>Our work philosophy is client-centered and goal-driven. We strive to always deeply understand the overall goals of our client for every project we do and focus our efforts on achieving those goals.</p>
       </b-col>
       <b-col md="6">
-        <img src="../assets/company_group.png" class="responsive">
+        <img src="../assets/company_group.jpg" class="responsive">
       </b-col>
     </b-row>
     <b-row style="margin-top: 20px;">

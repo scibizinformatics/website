@@ -16,7 +16,7 @@
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_female.jpg">
+        <img src="../assets/team/gzyll.png">
         <div class="details">
           <span class="name">Gzyll Kae Honorio</span><br>
           <span class="role">Accounting Staff / Secretary</span>
@@ -26,60 +26,67 @@
         <img src="../assets/team/reamon.png">
         <div class="details">
           <span class="name">Reamon Sumapig</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/jessie.png">
         <div class="details">
           <span class="name">Jesus Taganna, Jr.</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_female.jpg">
+        <img src="../assets/team/edcel.png">
         <div class="details">
           <span class="name">Marie Edcel Balite</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
+        <img src="../assets/team/jethro.png">
         <div class="details">
           <span class="name">Jethro Albano</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
+        <img src="../assets/team/jeff.png">
         <div class="details">
           <span class="name">Jeff Khirvy Sarmen</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
+        <img src="../assets/team/archie.png">
         <div class="details">
           <span class="name">Archie Galangue</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
+        <img src="../assets/team/ron.png">
         <div class="details">
           <span class="name">Ron Ramano</span><br>
-          <span class="role">Programmer</span>
+          <span class="role">Software Developer</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
+        <img src="../assets/team/jed.png">
+        <div class="details">
+          <span class="name">Jericho Dave Terado</span><br>
+          <span class="role">Software Developer</span>
+        </div>
+      </b-col>
+      <b-col sm="12" md="2" class="member">
+        <img src="../assets/team/arnel.png">
         <div class="details">
           <span class="name">Arnel Cabanatan</span><br>
           <span class="role">Graphic Artist</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
-        <img src="../assets/team/person_male.jpg">
+        <img src="../assets/team/orly.png">
         <div class="details">
           <span class="name">Orly Barredo</span><br>
           <span class="role">Graphic Artist</span>
@@ -98,13 +105,14 @@ export default {
 <style scoped>
 .member {
   text-align: center;
+  margin-top: 10px;
 }
 .member img {
   border-radius: 50%;
   border: 1px solid lightgrey;
   width: 140px;
-  -webkit-filter: grayscale(50%);
-  filter: grayscale(50%);
+  -webkit-filter: grayscale(20%);
+  filter: grayscale(20%);
   transition: filter 1.5s;
   transition: background 2s;
   transition: border 1s;
