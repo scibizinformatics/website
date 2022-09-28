@@ -32,7 +32,7 @@
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/jessie.png">
         <div class="details">
-          <span class="name">Jesus Taganna, Jr.</span><br>
+          <span class="name">Jesus Taganna</span><br>
           <span class="role">Software Developer</span>
         </div>
       </b-col>
@@ -67,7 +67,7 @@
       <b-col sm="12" md="2" class="member">
         <img src="../assets/team/ron.png">
         <div class="details">
-          <span class="name">Ron Ramano</span><br>
+          <span class="name">Ronaldo Ramano</span><br>
           <span class="role">Software Developer</span>
         </div>
       </b-col>

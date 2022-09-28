@@ -12,6 +12,54 @@
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">
           <h6>
+            <i>PurelyPeer.cash</i>
+          </h6>
+          <h4>Purely Peer</h4>
+          <p>PurelyPeer is a geolocation game and a digital wallet that allows anyone to create quests. Quests are composed of BCH cashdrops in accessible locations anywhere on Earth, which may be used as micro-advertisements. This encourages collected BCH cashdrops to be spent in BCH-accepting merchants. The quest creators and cashdrop collectors collectively build a virtual global community in the PurelyPeer metaverse while, at the same time, make a tangible impact in the real world peer-to-peer economy.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://twitter.com/purelypeer" target="_blank">
+            <img class="portfolio-img" src="../assets/portfolio/purelypeer.jpg" width="100%">
+          </a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6>
+            <i>Paytaca.com</i>
+          </h6>
+          <h4>Paytaca</h4>
+          <p>
+            Bitcoin Cash (BCH) is a purely peer-to-peer version of electronic cash that allows online payments to be sent directly from one party to another. It is sound money for the modern world.
+
+            The Paytaca wallet brings this revolutionary cryptocurrency to everyone everywhere. We have the app built for the browser, mobile, and desktop with features that are accessible and easy to use both by beginners and advanced users.
+
+            Paytaca wallet brings the power of BCH to the hands of every user, with their private keys solely under their custody giving them complete control of their own money.
+          </p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://paytaca.com/" target="_blank">
+            <img class="portfolio-img" src="../assets/portfolio/paytaca.jpg" width="100%">
+          </a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6>
+            <i>Apes.cash</i>
+          </h6>
+          <h4>Gambling Apes Club NFT</h4>
+          <p>A perked up version of Bored Apes in SmartBCH blockchain. Aside from having different traits permutations, we have added unique high quality specials and rares. Ape holders are able to stake to earn a reward token. Both the apes and the reward token enable holders to participate and profit from a soon-to-be released decentralized sports betting platform.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://apes.cash/" target="_blank">
+            <img class="portfolio-img" src="../assets/portfolio/apes_cash.png" width="100%">
+          </a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6>
             <i>Spicenft.art</i>
           </h6>
           <h4>Spice NFT</h4>
@@ -26,14 +74,15 @@
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">
           <h6>
-            <i>Apes.cash</i>
+            <i>SpiceToken.org</i>
           </h6>
-          <h4>Gambling Apes Club NFT</h4>
-          <p>A perked up version of Bored Apes in SmartBCH blockchain. Aside from having different traits permutations, we have added unique high quality specials and rares.</p>
+          <h4>Spice Token</h4>
+          <p>Spice is the hottest appreciation tipping token! When you find social media content that brightens your day, Spice it up.
+The Spice Must Flow.</p>
         </b-col>
         <b-col sm="12" md="6">
-          <a href="https://apes.cash/" target="_blank">
-            <img class="portfolio-img" src="../assets/portfolio/apes_cash.png" width="100%">
+          <a href="https://spicetoken.org/" target="_blank">
+            <img class="portfolio-img" src="../assets/portfolio/spicetoken.png" width="100%">
           </a>
         </b-col>
       </b-row>
