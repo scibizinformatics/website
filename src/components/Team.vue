@@ -5,7 +5,7 @@
         <img src="../assets/team/joemar.png">
         <div class="details">
           <span class="name">Joemar Taganna</span><br>
-          <span class="role">Founder & Lead Programmer</span>
+          <span class="role">Founder & CEO</span>
         </div>
       </b-col>
       <b-col sm="12" md="2" class="member">
@@ -85,13 +85,13 @@
           <span class="role">Graphic Artist</span>
         </div>
       </b-col>
-      <b-col sm="12" md="2" class="member">
+      <!-- <b-col sm="12" md="2" class="member">
         <img src="../assets/team/orly.png">
         <div class="details">
           <span class="name">Orly Barredo</span><br>
           <span class="role">Graphic Artist</span>
         </div>
-      </b-col>
+      </b-col> -->
     </b-row>
   </div>
 </template>
