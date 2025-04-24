@@ -28,10 +28,10 @@
     <div id="call-to-action">
       <b-row style="padding: 10px;">
         <b-col sm="12" md="10" id="cta-text">
-          <span>SciBiz Informatics</span> is helping shape a better future a few projects at a time.
+          <span>SciBiz Informatics</span> is helping shape a better future one venture at a time.
         </b-col>
         <b-col sm="12" md="2" style="padding: 10px; text-align: center;">
-          <b-button variant="primary" @click="openMessenger">Talk To Us</b-button>
+          <b-button variant="primary" to="/about">Learn More</b-button>
         </b-col>
       </b-row>
     </div>

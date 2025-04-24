@@ -2,7 +2,7 @@
   <div id="footer">
     <b-container>
       <b-row>
-        <b-col sm="12" md="4" class="footer-col">
+        <b-col sm="12" md="5" class="footer-col">
           <img src="../assets/logo.png" height="41">
           <p>
             2nd Floor YVI Center Building-B, Tabuan National Highway,<br>
@@ -10,14 +10,7 @@
             <br>6500 Philippines
           </p>
         </b-col>
-        <b-col sm="12" md="4" class="footer-col">
-          <h5>Contacts</h5>
-          <p>
-            Email: <img src="../assets/email.png" id="email-img"><br>
-            Mobile: (+63) 999 229 7420 (Smart)
-          </p>
-        </b-col>
-        <b-col id="social" sm="12" md="4" class="footer-col">
+        <b-col id="social" sm="12" md="3" class="footer-col">
           <h5>Follow Us</h5>
           <a href="https://www.facebook.com/scibizinformatics" target="_blank">
             <img src="../assets/icons/facebook_icon.svg" height="40">
@@ -31,6 +24,12 @@
           <a href="https://www.youtube.com/channel/UCxm55y3UaQIVnwtbBRp0dhQ?view_as=subscriber" target="_blank">
             <img src="../assets/icons/youtube_icon.svg" height="40">
           </a>
+        </b-col>
+        <b-col sm="12" md="4" class="footer-col">
+          <h5>Contacts</h5>
+          <p>
+            Email: <img src="../assets/email.png" id="email-img">
+          </p>
         </b-col>
       </b-row>
       <b-row id="copyright">
