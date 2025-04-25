@@ -20,8 +20,8 @@ export default {
     return {
       teamMembers: [
         { name: 'Joemar Taganna', role: 'Founder & CEO', image: require('../assets/team/joemar.png') },
-        { name: 'Geraldine Taganna', role: 'Admin Manager', image: require('../assets/team/gevan.png') },
-        { name: 'Gzyll Kae Honorio', role: 'Accounting Staff / Secretary', image: require('../assets/team/gzyll.png') },
+        { name: 'Geraldine Taganna', role: 'Corporate Services Manager', image: require('../assets/team/gevan.png') },
+        { name: 'Gzyll Kae Honorio', role: 'Corporate Services Supervisor', image: require('../assets/team/gzyll.png') },
         { name: 'Reamon Sumapig', role: 'Software Developer', image: require('../assets/team/reamon.png') },
         { name: 'Jesus Taganna', role: 'Software Developer', image: require('../assets/team/jessie.png') },
         { name: 'Marie Edcel Balite', role: 'Software Developer', image: require('../assets/team/edcel.png') },

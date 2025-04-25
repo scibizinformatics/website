@@ -15,6 +15,23 @@
       </b-col>
     </b-row>
 
+    <div class="mission-vision-section mb-5">
+      <b-row>
+        <b-col md="6" class="mb-4">
+          <div class="mission-card">
+            <h3 class="section-title">Mission</h3>
+            <p>To build transformative solutions with real-world impact—empowering individuals, businesses, and communities through accessible, tech-driven innovation.</p>
+          </div>
+        </b-col>
+        <b-col md="6" class="mb-4">
+          <div class="vision-card">
+            <h3 class="section-title">Vision</h3>
+            <p>To become a leading force in tech innovation, shaping a future where emerging technologies are seamlessly woven into everyday life—fostering a more equitable, free, and interconnected global society.</p>
+          </div>
+        </b-col>
+      </b-row>
+    </div>
+
     <div class="section-header">
       <h3>What Sets Us Apart</h3>
       <div class="section-divider"></div>
@@ -38,7 +55,7 @@
     <Team class="mb-5" />
 
     <div class="cta-section text-center mb-5">
-      <h2 class="join-us">Join us as we shape the future—<br>one startup at a time.</h2>
+      <h2 class="join-us">Join us as we shape the future—<br>one venture at a time.</h2>
     </div>
 
     <div class="text-center mb-5">
@@ -73,17 +90,17 @@ export default {
       differentiators: [
         {
           title: "We're founders, not just builders",
-          description: 'SciBiz retains equity in the ventures we create.',
+          description: 'SciBiz maintains significant equity stakes in all our ventures, ensuring long-term alignment of interests and commitment to their success. This founder-first approach means we\'re deeply invested in every project\'s growth and sustainability, not just its initial development.',
           icon: 'fas fa-lightbulb'
         },
         {
           title: 'Shared success model',
-          description: 'Our employees hold shares in SciBiz, making them co-owners of every startup we launch.',
+          description: 'Our employees hold meaningful equity in SciBiz, creating a powerful alignment of interests across the entire organization. This unique structure ensures that every team member shares in the success of our ventures, fostering a culture of ownership, innovation, and long-term commitment to our collective mission.',
           icon: 'fas fa-handshake'
         },
         {
           title: 'Mission-driven',
-          description: 'We aim to democratize technology and empower industries through decentralized, open systems.',
+          description: 'We invest in technologies and ideas we deeply believe in, particularly those that challenge the status quo. Our focus is on bringing innovative, non-mainstream solutions to the forefront, acting as a catalyst for their adoption and integration into everyday life.',
           icon: 'fas fa-bullseye'
         }
       ]
@@ -187,6 +204,36 @@ export default {
   padding: 40px;
   background: rgba(0, 68, 170, 0.05);
   border-radius: 10px;
+}
+
+.mission-vision-section {
+  padding: 20px;
+}
+
+.mission-card, .vision-card {
+  background: rgba(0, 68, 170, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.mission-card:hover, .vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  color: #0044aa;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.mission-card p, .vision-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
 }
 
 @media (max-width: 768px) {
