@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="layout-wrapper">
     <b-navbar toggleable="lg" type="light" variant="light" class="mb-4">
       <div class="content-wrapper d-flex justify-content-between align-items-center">
         <b-navbar-brand class="pt-2" to="/">
@@ -24,7 +24,7 @@
       </div>
     </b-navbar>
 
-    <div class="content-wrapper">
+    <div class="content-wrapper main-content">
       <nuxt />
     </div>
 
@@ -61,6 +61,22 @@
 </template>
 
 <style>
+.layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   background-color: white !important;
@@ -100,12 +116,13 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #0044aa;
+  border-bottom: 2px solid #5fbcd3;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #0044aa;
   font-weight: 600;
-  border-bottom: 2px solid #0044aa;
+  border-bottom: 2px solid #5fbcd3;
 }
 
 .content-wrapper {
@@ -147,11 +164,6 @@
   .navbar-nav {
     width: 100%;
   }
-}
-
-.footer {
-  background-color: #f8f9fa;
-  border-top: 1px solid #e9ecef;
 }
 
 .footer a {

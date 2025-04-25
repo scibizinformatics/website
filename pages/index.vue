@@ -44,6 +44,33 @@ export default {
     openMessenger () {
       window.open('https://m.me/scibizinformatics', '_blank')
     }
+  },
+  head () {
+    return {
+      title: 'SciBiz Informatics | Innovation Studio & Venture Builder',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products.'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'SciBiz Informatics | Innovation Studio & Venture Builder'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products.'
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'website'
+        }
+      ]
+    }
   }
 }
 </script>

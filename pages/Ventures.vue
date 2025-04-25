@@ -1,13 +1,17 @@
 <template>
   <div class="ventures-page">
     <div class="hero-section text-center mb-5">
-      <h1 class="display-4">Our Ventures</h1>
-      <div class="hero-divider"></div>
+      <h1 class="display-4">
+        Our Ventures
+      </h1>
+      <div class="hero-divider" />
     </div>
-    
+
     <b-container>
       <b-row style="margin-top: 20px;" class="featured-row">
-        <b-col sm="12" md="3" class="featured">LAUNCHED VENTURES</b-col>
+        <b-col sm="12" md="3" class="featured">
+          LAUNCHED VENTURES
+        </b-col>
       </b-row>
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">
@@ -15,7 +19,9 @@
             <i><a href="https://purelypeer.cash/" target="_blank">PurelyPeer.cash</a></i>
           </h6>
           <h4>Purely Peer</h4>
-          <p class="company-info">Peer Quest Ventures Ltd., Hong Kong</p>
+          <p class="company-info">
+            Peer Quest Ventures Ltd., Hong Kong
+          </p>
           <p>PurelyPeer is an innovative platform that combines geolocation gaming with digital finance. At its core, it's a digital wallet that enables users to create and participate in location-based quests. These quests involve strategically placed Bitcoin Cash (BCH) cashdrops in real-world locations, creating a unique blend of digital treasure hunting and micro-advertising. The platform fosters a vibrant peer-to-peer economy by encouraging users to spend their collected BCH at participating merchants. Through this gamified approach, PurelyPeer not only builds an engaging virtual community but also drives real-world economic activity, making cryptocurrency more accessible and fun for everyone.</p>
         </b-col>
         <b-col sm="12" md="6">
@@ -30,12 +36,16 @@
             <i><a href="https://www.paytaca.com/" target="_blank">Paytaca.com</a></i>
           </h6>
           <h4>Paytaca</h4>
-          <p class="company-info">Paytaca Inc., Philippines</p>
-          <p>Paytaca is a revolutionary Bitcoin Cash (BCH) wallet that brings the power of peer-to-peer electronic cash to users worldwide. Built on the principles of financial sovereignty and accessibility, Paytaca offers a seamless experience across all platforms - web, mobile, and desktop.
+          <p class="company-info">
+            Paytaca Inc., Philippines
+          </p>
+          <p>
+            Paytaca is a revolutionary Bitcoin Cash (BCH) wallet that brings the power of peer-to-peer electronic cash to users worldwide. Built on the principles of financial sovereignty and accessibility, Paytaca offers a seamless experience across all platforms - web, mobile, and desktop.
 
-The wallet is designed with both beginners and advanced users in mind, featuring an intuitive interface that makes cryptocurrency management simple and secure. Users maintain complete control of their funds with full custody of their private keys, ensuring true financial independence.
+            The wallet is designed with both beginners and advanced users in mind, featuring an intuitive interface that makes cryptocurrency management simple and secure. Users maintain complete control of their funds with full custody of their private keys, ensuring true financial independence.
 
-Beyond basic transactions, Paytaca enables users to engage with the growing BCH ecosystem, supporting merchant payments, peer-to-peer transfers, and various financial services. By making Bitcoin Cash accessible to everyone, Paytaca is helping to build a more inclusive financial future where users have direct control over their money.</p>
+            Beyond basic transactions, Paytaca enables users to engage with the growing BCH ecosystem, supporting merchant payments, peer-to-peer transfers, and various financial services. By making Bitcoin Cash accessible to everyone, Paytaca is helping to build a more inclusive financial future where users have direct control over their money.
+          </p>
         </b-col>
         <b-col sm="12" md="6">
           <a href="https://www.paytaca.com/" target="_blank">
@@ -47,7 +57,9 @@ Beyond basic transactions, Paytaca enables users to engage with the growing BCH 
 
     <b-container>
       <b-row style="margin-top: 20px;" class="featured-row">
-        <b-col sm="12" md="3" class="featured">PROTOTYPING STAGE</b-col>
+        <b-col sm="12" md="3" class="featured">
+          PROTOTYPING STAGE
+        </b-col>
       </b-row>
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">
@@ -79,16 +91,42 @@ Beyond basic transactions, Paytaca enables users to engage with the growing BCH 
       </b-row>
     </b-container>
   </div>
-
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-    };
+    }
+  },
+  head () {
+    return {
+      title: 'Our Ventures | SciBiz Informatics',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures, from launched products to prototypes in development. Discover how we\'re building the future of technology.'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Our Ventures | SciBiz Informatics'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures, from launched products to prototypes in development. Discover how we\'re building the future of technology.'
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'website'
+        }
+      ]
+    }
   }
-};
+}
 </script>
 
 <style scoped>
@@ -100,13 +138,13 @@ export default {
 
 .hero-section {
   position: relative;
-  padding: 40px 0;
+  padding: 10px 0;
 }
 
 .hero-divider {
   width: 100px;
   height: 4px;
-  background: #0044aa;
+  background: #5fbcd3;
   margin: 20px auto;
 }
 
@@ -134,7 +172,7 @@ h4 {
 }
 .featured {
   color: white;
-  background: #666666;
+  background: #5fbcd3;
   padding: 10px 8px;
   text-align: center;
 }
@@ -152,6 +190,9 @@ h4 {
   color: #666;
   font-style: italic;
   margin-bottom: 1rem;
+}
+h1, h2, h3 {
+  color: #0044aa;
 }
 h6 a {
   color: inherit;
