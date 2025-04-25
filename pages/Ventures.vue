@@ -20,7 +20,7 @@
         </b-col>
         <b-col sm="12" md="6">
           <a href="https://purelypeer.cash/" target="_blank">
-            <img class="portfolio-img" src="../assets/portfolio/purelypeer.jpg" width="100%">
+            <img class="portfolio-img" src="~/assets/portfolio/purelypeer.jpg" width="100%">
           </a>
         </b-col>
       </b-row>
@@ -39,7 +39,7 @@ Beyond basic transactions, Paytaca enables users to engage with the growing BCH 
         </b-col>
         <b-col sm="12" md="6">
           <a href="https://www.paytaca.com/" target="_blank">
-            <img class="portfolio-img" src="../assets/portfolio/paytaca.jpg" width="100%">
+            <img class="portfolio-img" src="~/assets/portfolio/paytaca.jpg" width="100%">
           </a>
         </b-col>
       </b-row>

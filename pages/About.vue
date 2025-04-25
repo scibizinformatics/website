@@ -1,17 +1,25 @@
 <template>
   <div class="about-page">
     <div class="hero-section text-center mb-5">
-      <h1 class="display-4">About SciBiz Informatics</h1>
-      <div class="hero-divider"></div>
+      <h1 class="display-4">
+        About SciBiz Informatics
+      </h1>
+      <div class="hero-divider" />
     </div>
-    
+
     <b-row class="mb-5 intro-section">
       <b-col>
-        <p class="lead">SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.</p>
+        <p class="lead">
+          SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
+        </p>
         <div class="mission-statement text-center my-5">
-          <h2 class="display-5">We don't just build software—<br>we build startups.</h2>
+          <h2 class="display-5">
+            We don't just build software—<br>we build startups.
+          </h2>
         </div>
-        <p class="text-center">Founded in 2015 and based in Tacloban City, Philippines, SciBiz began as a custom software development company serving clients worldwide. Today, we've grown into a full-fledged venture studio that creates, builds, and launches tech startups from within.</p>
+        <p class="text-center">
+          Founded in 2015 and based in Tacloban City, Philippines, SciBiz began as a custom software development company serving clients worldwide. Today, we've grown into a full-fledged venture studio that creates, builds, and launches tech startups from within.
+        </p>
       </b-col>
     </b-row>
 
@@ -19,13 +27,17 @@
       <b-row>
         <b-col md="6" class="mb-4">
           <div class="mission-card">
-            <h3 class="section-title">Mission</h3>
+            <h3 class="section-title">
+              Mission
+            </h3>
             <p>To build transformative solutions with real-world impact—empowering individuals, businesses, and communities through accessible, tech-driven innovation.</p>
           </div>
         </b-col>
         <b-col md="6" class="mb-4">
           <div class="vision-card">
-            <h3 class="section-title">Vision</h3>
+            <h3 class="section-title">
+              Vision
+            </h3>
             <p>To become a leading force in tech innovation, shaping a future where emerging technologies are seamlessly woven into everyday life—fostering a more equitable, free, and interconnected global society.</p>
           </div>
         </b-col>
@@ -34,13 +46,13 @@
 
     <div class="section-header">
       <h3>What Sets Us Apart</h3>
-      <div class="section-divider"></div>
+      <div class="section-divider" />
     </div>
     <b-row class="mb-5">
-      <b-col md="4" v-for="(point, index) in differentiators" :key="index">
+      <b-col v-for="(point, index) in differentiators" :key="index" md="4">
         <b-card class="h-100 differentiator-card">
           <div class="card-icon">
-            <i :class="point.icon"></i>
+            <i :class="point.icon" />
           </div>
           <b-card-title>{{ point.title }}</b-card-title>
           <b-card-text>{{ point.description }}</b-card-text>
@@ -50,16 +62,20 @@
 
     <div class="section-header">
       <h3>Our Team</h3>
-      <div class="section-divider"></div>
+      <div class="section-divider" />
     </div>
     <Team class="mb-5" />
 
     <div class="cta-section text-center mb-5">
-      <h2 class="join-us">Join us as we shape the future—<br>one venture at a time.</h2>
+      <h2 class="join-us">
+        Join us as we shape the future—<br>one venture at a time.
+      </h2>
     </div>
 
     <div class="text-center mb-5">
-      <b-button variant="outline-primary" size="lg" to="/ventures">Learn More About Our Ventures</b-button>
+      <b-button variant="outline-primary" size="lg" to="/ventures">
+        Learn More About Our Ventures
+      </b-button>
     </div>
   </div>
 </template>
@@ -71,22 +87,8 @@ export default {
   components: {
     Team
   },
-  data() {
+  data () {
     return {
-      portfolio: [
-        {
-          name: 'Paytaca',
-          description: 'A crypto super app for peer-to-peer electronic cash'
-        },
-        {
-          name: 'PurelyPeer',
-          description: 'A geolocation game that gamifies BCH adoption'
-        },
-        {
-          name: 'WorkHippo',
-          description: 'A crypto-native freelancing platform'
-        }
-      ],
       differentiators: [
         {
           title: "We're founders, not just builders",
@@ -159,6 +161,36 @@ export default {
   margin: 40px 0;
 }
 
+.mission-vision-section {
+  padding: 20px;
+}
+
+.mission-card, .vision-card {
+  background: rgba(0, 68, 170, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.mission-card:hover, .vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  color: #0044aa;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.mission-card p, .vision-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
 .portfolio-card, .differentiator-card {
   transition: all 0.3s ease;
   border: none;
@@ -206,41 +238,11 @@ export default {
   border-radius: 10px;
 }
 
-.mission-vision-section {
-  padding: 20px;
-}
-
-.mission-card, .vision-card {
-  background: rgba(0, 68, 170, 0.05);
-  padding: 30px;
-  border-radius: 10px;
-  height: 100%;
-  transition: all 0.3s ease;
-}
-
-.mission-card:hover, .vision-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-}
-
-.section-title {
-  color: #0044aa;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-
-.mission-card p, .vision-card p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #333;
-}
-
 @media (max-width: 768px) {
   .about-page {
     padding: 20px 15px;
   }
-  
+
   .portfolio-card, .differentiator-card {
     margin-bottom: 15px;
   }
