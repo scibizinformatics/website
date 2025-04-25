@@ -9,7 +9,7 @@
         <b-navbar-toggle target="nav-collapse" />
 
         <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ml-auto">
+          <b-navbar-nav style="height: 100%;" class="ml-auto">
             <b-nav-item to="/" class="text-dark px-2" :active="$route.path === '/'">
               Home
             </b-nav-item>
