@@ -81,7 +81,7 @@
             <i><a href="https://thinkerville.education/" target="_blank">ThinkerVille.education</a></i>
           </h6>
           <h4>ThinkerVille</h4>
-          <p>ThinkerVille is an innovative platform that connects thinkers, creators, and innovators with opportunities to monetize their ideas and expertise. Through a unique combination of content creation, community building, and blockchain technology, ThinkerVille empowers individuals to share their knowledge and earn rewards for their contributions. The platform fosters a vibrant ecosystem where intellectual capital is valued and rewarded, creating new possibilities for knowledge sharing and monetization in the digital age.</p>
+          <p>ThinkerVille revolutionizes education by connecting teachers and learners through a borderless, blockchain-powered ecosystem. Educators can deliver structured lessons, live tutorials, and hands-on learning experiences, both in-person and online. With blockchain ensuring transparent reviews and cryptocurrency enabling instant global payments, ThinkerVille creates a trusted marketplace where educators earn fairly — and learners gain access to top-quality knowledge from anywhere in the world.</p>
         </b-col>
         <b-col sm="12" md="6">
           <a href="https://thinkerville.education/" target="_blank">
