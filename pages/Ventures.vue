@@ -165,10 +165,6 @@ export default {
   background: #5fbcd3;
   margin: 20px auto;
 }
-
-h4 {
-  color: #4d6b99 !important;
-}
 .portfolio-img {
   transition: border 1s;
   transition: filter 1s;
@@ -181,12 +177,12 @@ h4 {
 }
 .portfolio-item {
   margin-top: 0px;
-  background: #f2f2f2;
+  background: rgba(0, 68, 170, 0.05);
   padding: 35px 10px;
 }
 .featured-row {
   margin-top: 0px;
-  background: #f2f2f2;
+  background: rgba(0, 68, 170, 0.05);
 }
 .featured {
   color: white;
@@ -209,7 +205,7 @@ h4 {
   font-style: italic;
   margin-bottom: 1rem;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
   color: #0044aa;
 }
 h6 a {
