@@ -113,6 +113,10 @@ export default {
 </script>
 
 <style scoped>
+h1, h2, h3 {
+  color: #0044aa;
+}
+
 .home {
   padding-top: 30px;
 }
@@ -158,7 +162,6 @@ section {
 
 .section-title {
   text-align: center;
-  color: #333;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -186,7 +189,6 @@ section {
 }
 
 .service-card h3 {
-  color: #333;
   margin-bottom: 15px;
   font-size: 1.5rem;
 }
