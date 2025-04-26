@@ -2,7 +2,7 @@
   <div class="about-page">
     <div class="hero-section text-center mb-5">
       <h1 class="display-4" style="color: #0044aa;">
-        About SciBiz Informatics
+        About Us
       </h1>
       <div class="hero-divider" />
     </div>
