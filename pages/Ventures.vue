@@ -70,23 +70,11 @@
           <p>WorkHippo is a crypto-native freelancing platform that revolutionizes the way freelancers and clients connect and transact. Built on blockchain technology, it enables secure, transparent, and instant payments in cryptocurrency, eliminating traditional payment barriers and high transaction fees. The platform combines the flexibility of freelance work with the efficiency of blockchain payments, creating a seamless experience for both freelancers and employers in the digital economy.</p>
         </b-col>
         <b-col sm="12" md="6">
-          <a href="https://workhippo.app/" target="_blank">
-            <img class="portfolio-img" src="https://placehold.co/300x200/e2e2e2/666666/png?text=WorkHippo" width="100%">
-          </a>
-        </b-col>
-      </b-row>
-      <b-row class="portfolio-item">
-        <b-col sm="12" md="6">
           <h6>
             <i><a href="https://thinkerville.education/" target="_blank">ThinkerVille.education</a></i>
           </h6>
           <h4>ThinkerVille</h4>
           <p>ThinkerVille revolutionizes education by connecting teachers and learners through a borderless, blockchain-powered ecosystem. Educators can deliver structured lessons, live tutorials, and hands-on learning experiences, both in-person and online. With blockchain ensuring transparent reviews and cryptocurrency enabling instant global payments, ThinkerVille creates a trusted marketplace where educators earn fairly — and learners gain access to top-quality knowledge from anywhere in the world.</p>
-        </b-col>
-        <b-col sm="12" md="6">
-          <a href="https://thinkerville.education/" target="_blank">
-            <img class="portfolio-img" src="https://placehold.co/300x200/e2e2e2/666666/png?text=ThinkerVille" width="100%">
-          </a>
         </b-col>
       </b-row>
     </b-container>
@@ -103,7 +91,7 @@
             <i><a href="https://www.sophrobiome.com" target="_blank">SophroBiome.com</a></i>
           </h6>
           <h4>SophroBiome</h4>
-          <p>A biotechnology venture focused on advancing gut microbiome research and applications. The company will develop diagnostic kits for microbiome analysis, personalized probiotic supplements, and digital health tracking solutions. Through a combination of applied research and technology development, it aims to provide comprehensive gut health management tools that integrate diagnostics, therapeutics, and digital monitoring via mobile applications and APIs.</p>
+          <p>A biotechnology venture focused on advancing gut microbiome research and applications. The company will develop diagnostics for microbiome analysis, personalized probiotic supplements, and digital gut health tracking solutions. Through a combination of applied research and technology development, it aims to provide comprehensive gut health management that integrate diagnostics, therapeutics, and digital monitoring via mobile applications and APIs.</p>
         </b-col>
         <b-col sm="12" md="6">
           <h4>AI Agent Marketplace</h4>

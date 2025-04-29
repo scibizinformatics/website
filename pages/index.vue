@@ -52,7 +52,7 @@
           <div class="service-card">
             <i class="fas fa-cubes service-icon" />
             <h3>Emerging Technologies</h3>
-            <p>Leveraging cutting-edge technologies like blockchain, AI, and IoT to create innovative solutions for real-world challenges.</p>
+            <p>Leveraging cutting-edge technologies like blockchain, AI, IoT, and genomics to create innovative solutions for real-world challenges.</p>
           </div>
         </b-col>
         <b-col md="4">
