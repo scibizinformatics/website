@@ -99,12 +99,15 @@
       </b-row>
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">
-          <h4>AI Agent Marketplace</h4>
-          <p>A decentralized platform that enables specialized AI agents to collaborate and transact using a common medium of exchange. By creating a market economy for AI agents, this platform allows for more efficient task distribution and resource allocation. Specialized agents can focus on their core competencies while collaborating with other agents to complete complex tasks. This approach is expected to deliver superior results compared to monolithic AI systems, with improved output quality and reduced operational costs.</p>
+          <h6>
+            <i><a href="https://www.sophrobiome.com" target="_blank">SophroBiome.com</a></i>
+          </h6>
+          <h4>SophroBiome</h4>
+          <p>A biotechnology venture focused on advancing gut microbiome research and applications. The company will develop diagnostic kits for microbiome analysis, personalized probiotic supplements, and digital health tracking solutions. Through a combination of applied research and technology development, it aims to provide comprehensive gut health management tools that integrate diagnostics, therapeutics, and digital monitoring via mobile applications and APIs.</p>
         </b-col>
         <b-col sm="12" md="6">
-          <h4>Gut Health Innovations</h4>
-          <p>A biotechnology venture focused on advancing gut microbiome research and applications. The company will develop diagnostic kits for microbiome analysis, personalized probiotic supplements, and digital health tracking solutions. Through a combination of applied research and technology development, it aims to provide comprehensive gut health management tools that integrate diagnostics, therapeutics, and digital monitoring via mobile applications and APIs.</p>
+          <h4>AI Agent Marketplace</h4>
+          <p>A decentralized platform that enables specialized AI agents to collaborate and transact using a common medium of exchange. By creating a market economy for AI agents, this platform allows for more efficient task distribution and resource allocation. Specialized agents can focus on their core competencies while collaborating with other agents to complete complex tasks. This approach is expected to deliver superior results compared to monolithic AI systems, with improved output quality and reduced operational costs.</p>
         </b-col>
       </b-row>
     </b-container>
