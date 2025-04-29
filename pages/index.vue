@@ -59,7 +59,7 @@
           <div class="service-card">
             <i class="fas fa-lightbulb service-icon" />
             <h3>Innovation Studio</h3>
-            <p>Transforming bold ideas into scalable products through our expert team of innovators and technologists.</p>
+            <p>Transforming bold ideas into scalable products through our highly skilled, adaptable, and challenge-driven product development team.</p>
           </div>
         </b-col>
         <b-col md="4">
