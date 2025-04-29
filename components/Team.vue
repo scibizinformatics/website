@@ -2,7 +2,14 @@
   <div id="team">
     <b-row>
       <transition-group name="team-member" tag="div" class="row">
-        <b-col sm="12" md="2" class="member" v-for="(member, index) in teamMembers" :key="member.name" :style="{ transitionDelay: `${index * 0.1}s` }">
+        <b-col
+          sm="12"
+          md="2"
+          class="member"
+          v-for="(member, index) in teamMembers"
+          :key="member.name"
+          :style="{ transitionDelay: `${index * 0.1}s` }"
+        >
           <img :src="member.image">
           <div class="details">
             <span class="name">{{ member.name }}</span><br>
@@ -16,12 +23,16 @@
 
 <script>
 export default {
-  data() {
+  name: 'TeamSection',
+  data () {
     return {
       teamMembers: [
         { name: 'Joemar Taganna', role: 'Founder & CEO', image: require('../assets/team/joemar.png') },
         { name: 'Geraldine Taganna', role: 'Corporate Services Manager', image: require('../assets/team/gevan.png') },
         { name: 'Gzyll Kae Honorio', role: 'Corporate Services Supervisor', image: require('../assets/team/gzyll.png') },
+        { name: 'Reca Joy Torre', role: 'Corporate Services Associate', image: require('../assets/team/reca.png') },
+        { name: 'Gwyneth Mae Avestruz', role: 'Corporate Services Associate', image: require('../assets/team/gwyn.png') },
+        { name: 'Arnel Cabanatan', role: 'Graphic Artist', image: require('../assets/team/arnel.png') },
         { name: 'Reamon Sumapig', role: 'Software Developer', image: require('../assets/team/reamon.png') },
         { name: 'Jesus Taganna', role: 'Software Developer', image: require('../assets/team/jessie.png') },
         { name: 'Marie Edcel Balite', role: 'Software Developer', image: require('../assets/team/edcel.png') },
@@ -29,8 +40,10 @@ export default {
         { name: 'Jeff Khirvy Sarmen', role: 'Software Developer', image: require('../assets/team/jeff.png') },
         { name: 'Archie Galangue', role: 'Software Developer', image: require('../assets/team/archie.png') },
         { name: 'Ronaldo Ramano', role: 'Software Developer', image: require('../assets/team/ron.png') },
+        { name: 'Kenneth Matthew Lanante', role: 'Software Developer', image: require('../assets/team/ken.png') },
         { name: 'Jericho Dave Terado', role: 'Software Developer', image: require('../assets/team/jed.png') },
-        { name: 'Arnel Cabanatan', role: 'Graphic Artist', image: require('../assets/team/arnel.png') }
+        { name: 'Sean Nicole Lino', role: 'Software Developer', image: require('../assets/team/sean.png') },
+        { name: 'Adrian Salave', role: 'Software Tester', image: require('../assets/team/adrian.png') }
       ]
     }
   }
