@@ -10,13 +10,13 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav style="height: 100%;" class="ml-auto">
-            <b-nav-item to="/" class="text-dark px-2" :active="$route.path === '/'">
+            <b-nav-item to="/" class="text-dark px-2" :active="route.path === '/'">
               Home
             </b-nav-item>
-            <b-nav-item to="/about" class="text-dark px-2" :active="$route.path === '/about'">
+            <b-nav-item to="/about" class="text-dark px-2" :active="route.path === '/about'">
               About
             </b-nav-item>
-            <b-nav-item to="/ventures" class="text-dark px-2" :active="$route.path === '/ventures'">
+            <b-nav-item to="/ventures" class="text-dark px-2" :active="route.path.startsWith('/ventures')">
               Ventures
             </b-nav-item>
           </b-navbar-nav>
@@ -59,6 +59,17 @@
     </footer>
   </div>
 </template>
+
+<script>
+import { useRoute } from '@nuxtjs/composition-api'
+
+export default {
+  setup () {
+    const route = useRoute()
+    return { route }
+  }
+}
+</script>
 
 <style>
 .layout-wrapper {

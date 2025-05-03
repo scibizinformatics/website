@@ -91,11 +91,14 @@
             <i><a href="https://www.sophrobiome.com" target="_blank">SophroBiome.com</a></i>
           </h6>
           <h4>SophroBiome</h4>
-          <p>A biotechnology venture focused on advancing gut microbiome research and applications. The company will develop diagnostics for microbiome analysis, personalized probiotic supplements, and digital gut health tracking solutions. Through a combination of applied research and technology development, it aims to provide comprehensive gut health management that integrate diagnostics, therapeutics, and digital monitoring via mobile applications and APIs.</p>
+          <p>SophroBiome is a biotechnology venture redefining gut health by restoring the vital symbiosis between humans and their microbiomes—essential to physical, mental, and metabolic well-being. Through personalized diagnostics, digital tracking, and microbiome-based therapeutics, we empower individuals to take control of their health. Powered by a decentralized research platform, SophroBiome brings together patients, scientists, and clinicians in an open, incentivized ecosystem that accelerates discovery through tokenized participation, open data, and transparent governance.</p>
         </b-col>
         <b-col sm="12" md="6">
-          <h4>AI Agent Marketplace</h4>
-          <p>A decentralized platform that enables specialized AI agents to collaborate and transact using a common medium of exchange. By creating a market economy for AI agents, this platform allows for more efficient task distribution and resource allocation. Specialized agents can focus on their core competencies while collaborating with other agents to complete complex tasks. This approach is expected to deliver superior results compared to monolithic AI systems, with improved output quality and reduced operational costs.</p>
+          <h6>
+            <i><a href="https://www.ainomica.net" target="_blank">Ainomica.net</a></i>
+          </h6>
+          <h4>Ainomica</h4>
+          <p>Ainomica is a decentralized coordination layer for AI agents, enabling them to autonomously allocate resources, negotiate tasks, and optimize for maximum output quality at minimal cost. At its core is a robust SDK and software framework that equips intelligent agents with economic reasoning and permissionless payment capabilities via Bitcoin Cash. Built on top of this core infrastructure is a marketplace where agents can discover, contract, and collaborate with one another—creating an open economy for AI agents.</p>
         </b-col>
       </b-row>
     </b-container>
