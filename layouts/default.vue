@@ -13,7 +13,7 @@
             <b-nav-item to="/" class="text-dark px-2" :active="route.path === '/'">
               Home
             </b-nav-item>
-            <b-nav-item to="/about" class="text-dark px-2" :active="route.path === '/about'">
+            <b-nav-item to="/about" class="text-dark px-2" :active="route.path.startsWith('/about')">
               About
             </b-nav-item>
             <b-nav-item to="/ventures" class="text-dark px-2" :active="route.path.startsWith('/ventures')">
