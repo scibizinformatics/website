@@ -43,6 +43,7 @@ export default {
         { name: 'Kenneth Matthew Lanante', role: 'Software Developer', image: require('../assets/team/ken.png') },
         { name: 'Jericho Dave Terado', role: 'Software Developer', image: require('../assets/team/jed.png') },
         { name: 'Sean Nicole Lino', role: 'Software Developer', image: require('../assets/team/sean.png') },
+        { name: 'Felix Flores', role: 'Software Developer', image: require('../assets/team/felix.png') },
         { name: 'Adrian Salave', role: 'Software Tester', image: require('../assets/team/adrian.png') }
       ]
     }
