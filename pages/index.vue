@@ -53,21 +53,42 @@
       <!-- Services Section -->
       <section class="services-section">
         <b-row>
-          <b-col md="4" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000" data-aos-once="false">
+          <b-col
+            md="4"
+            class="card-container"
+            data-aos="fade-right"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-once="false"
+          >
             <div class="service-card">
               <i class="fas fa-cubes service-icon" />
               <h3>Emerging Technologies</h3>
               <p>Leveraging cutting-edge technologies like blockchain, AI, and genomics to create innovative solutions for real-world challenges.</p>
             </div>
           </b-col>
-          <b-col md="4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="false">
+          <b-col
+            md="4"
+            class="card-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-once="false"
+          >
             <div class="service-card">
               <i class="fas fa-lightbulb service-icon" />
               <h3>Innovation Studio</h3>
               <p>Transforming bold ideas into scalable products through our highly skilled, adaptable, and challenge-driven product development team.</p>
             </div>
           </b-col>
-          <b-col md="4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
+          <b-col
+            md="4"
+            class="card-container"
+            data-aos="fade-left"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-once="false"
+          >
             <div class="service-card">
               <i class="fas fa-rocket service-icon" />
               <h3>Venture Building</h3>
@@ -289,5 +310,15 @@ section {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.card-container {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    margin-bottom: 0;
+  }
 }
 </style>

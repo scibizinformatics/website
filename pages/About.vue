@@ -49,7 +49,14 @@
       <div class="section-divider" />
     </div>
     <b-row class="mb-5">
-      <b-col v-for="(point, index) in differentiators" :key="index" md="4" :data-aos="index === 0 ? 'fade-right' : index === 1 ? 'fade-up' : 'fade-left'" :data-aos-delay="index * 100">
+      <b-col
+        v-for="(point, index) in differentiators"
+        :key="index"
+        md="4"
+        class="differentiator-container"
+        :data-aos="index === 0 ? 'fade-right' : index === 1 ? 'fade-up' : 'fade-left'"
+        :data-aos-delay="index * 100"
+      >
         <b-card class="h-100 differentiator-card">
           <b-card-title>{{ point.title }}</b-card-title>
           <b-card-text>{{ point.description }}</b-card-text>
@@ -253,13 +260,13 @@ export default {
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-  .about-page {
-    padding: 20px 15px;
-  }
+.differentiator-container {
+  margin-bottom: 30px;
+}
 
-  .portfolio-card, .differentiator-card {
-    margin-bottom: 15px;
+@media screen and (min-width: 768px) {
+  .differentiator-container {
+    margin-bottom: 0;
   }
 }
 
