@@ -1,18 +1,18 @@
 <template>
   <div class="about-page">
-    <div class="hero-section text-center mb-5">
+    <div class="hero-section text-center mb-5" data-aos="fade-down">
       <h1 class="display-4" style="color: #0044aa;">
         About Us
       </h1>
       <div class="hero-divider" />
     </div>
 
-    <b-row class="mb-5 intro-section">
+    <b-row class="mb-5 intro-section" data-aos="fade-up">
       <b-col>
         <p class="lead">
           SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
         </p>
-        <div class="mission-statement text-center my-5">
+        <div class="mission-statement text-center my-5" data-aos="zoom-in" data-aos-delay="200">
           <h2 class="display-5" style="color: #0044aa;">
             We don't just build software—<br>we build startups.
           </h2>
@@ -25,7 +25,7 @@
 
     <div class="mission-vision-section mb-5">
       <b-row>
-        <b-col md="6" class="mb-4">
+        <b-col md="6" class="mb-4" data-aos="fade-right">
           <div class="mission-card">
             <h3 class="section-title" style="color: #0044aa;">
               Mission
@@ -33,7 +33,7 @@
             <p>To build transformative solutions with real-world impact—empowering individuals, businesses, and communities through accessible, tech-driven innovation.</p>
           </div>
         </b-col>
-        <b-col md="6" class="mb-4">
+        <b-col md="6" class="mb-4" data-aos="fade-left">
           <div class="vision-card">
             <h3 class="section-title" style="color: #0044aa;">
               Vision
@@ -44,12 +44,12 @@
       </b-row>
     </div>
 
-    <div class="section-header">
+    <div class="section-header" data-aos="fade-up">
       <h3 style="color: #0044aa;">What Sets Us Apart</h3>
       <div class="section-divider" />
     </div>
     <b-row class="mb-5">
-      <b-col v-for="(point, index) in differentiators" :key="index" md="4">
+      <b-col v-for="(point, index) in differentiators" :key="index" md="4" :data-aos="index === 0 ? 'fade-right' : index === 1 ? 'fade-up' : 'fade-left'" :data-aos-delay="index * 100">
         <b-card class="h-100 differentiator-card">
           <b-card-title>{{ point.title }}</b-card-title>
           <b-card-text>{{ point.description }}</b-card-text>
@@ -57,19 +57,19 @@
       </b-col>
     </b-row>
 
-    <div class="section-header">
+    <div class="section-header" data-aos="fade-up">
       <h3>Our Team</h3>
       <div class="section-divider" />
     </div>
-    <Team class="mb-5" />
+    <Team class="mb-5" data-aos="fade-up" />
 
-    <div class="cta-section text-center mb-5">
+    <div class="cta-section text-center mb-5" data-aos="zoom-in">
       <h2 class="join-us">
         Join us as we shape the future—<br>one venture at a time.
       </h2>
     </div>
 
-    <div class="text-center">
+    <div class="text-center" data-aos="fade-up">
       <b-button variant="outline-primary" size="lg" to="/ventures">
         Learn More About Our Ventures
       </b-button>

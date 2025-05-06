@@ -1,22 +1,21 @@
 <template>
   <div id="team">
     <b-row>
-      <transition-group name="team-member" tag="div" class="row">
-        <b-col
-          sm="12"
-          md="2"
-          class="member"
-          v-for="(member, index) in teamMembers"
-          :key="member.name"
-          :style="{ transitionDelay: `${index * 0.1}s` }"
-        >
-          <img :src="member.image">
-          <div class="details">
-            <span class="name">{{ member.name }}</span><br>
-            <span class="role">{{ member.role }}</span>
-          </div>
-        </b-col>
-      </transition-group>
+      <b-col
+        v-for="(member, index) in teamMembers"
+        :key="member.name"
+        sm="12"
+        md="2"
+        class="member"
+        :data-aos="index % 3 === 0 ? 'fade-right' : index % 3 === 1 ? 'fade-up' : 'fade-left'"
+        :data-aos-delay="(index % 3) * 100"
+      >
+        <img :src="member.image">
+        <div class="details">
+          <span class="name">{{ member.name }}</span><br>
+          <span class="role">{{ member.role }}</span>
+        </div>
+      </b-col>
     </b-row>
   </div>
 </template>
@@ -55,16 +54,6 @@ export default {
 .member {
   text-align: center;
   margin-top: 10px;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.5s ease forwards;
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .member img {
