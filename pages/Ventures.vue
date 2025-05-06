@@ -23,11 +23,7 @@
             Paytaca Inc., Philippines
           </p>
           <p>
-            Paytaca is a revolutionary Bitcoin Cash (BCH) wallet that brings the power of peer-to-peer electronic cash to users worldwide. Built on the principles of financial sovereignty and accessibility, Paytaca offers a seamless experience across all platforms - web, mobile, and desktop.
-
-            The wallet is designed with both beginners and advanced users in mind, featuring an intuitive interface that makes cryptocurrency management simple and secure. Users maintain complete control of their funds with full custody of their private keys, ensuring true financial independence.
-
-            Beyond basic transactions, Paytaca enables users to engage with the growing BCH ecosystem, supporting merchant payments, peer-to-peer transfers, and various financial services. By making Bitcoin Cash accessible to everyone, Paytaca is helping to build a more inclusive financial future where users have direct control over their money.
+            Paytaca is a decentralized financial ecosystem anchored on a powerful Bitcoin Cash super app, built to let the world experience the security, convenience, and efficiency of a truly modern digital currency system. It combines a non-custodial wallet with tools for merchant payments, peer-to-peer exchange, token utilities, and more—empowering individuals and businesses to transact freely and seamlessly. With a vision to restore financial sovereignty and eliminate barriers in commerce, Paytaca brings real-world utility to crypto and reshapes how people send, spend, and receive money—on their own terms.
           </p>
         </b-col>
         <b-col sm="12" md="6">
