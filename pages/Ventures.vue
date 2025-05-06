@@ -16,23 +16,6 @@
       <b-row class="portfolio-item">
         <b-col sm="12" md="6">
           <h6>
-            <i><a href="https://purelypeer.cash/" target="_blank">PurelyPeer.cash</a></i>
-          </h6>
-          <h4>Purely Peer</h4>
-          <p class="company-info">
-            Peer Quest Ventures Ltd., Hong Kong
-          </p>
-          <p>PurelyPeer is an innovative platform that combines geolocation gaming with digital finance. At its core, it's a digital wallet that enables users to create and participate in location-based quests. These quests involve strategically placed Bitcoin Cash (BCH) cashdrops in real-world locations, creating a unique blend of digital treasure hunting and micro-advertising. The platform fosters a vibrant peer-to-peer economy by encouraging users to spend their collected BCH at participating merchants. Through this gamified approach, PurelyPeer not only builds an engaging virtual community but also drives real-world economic activity, making cryptocurrency more accessible and fun for everyone.</p>
-        </b-col>
-        <b-col sm="12" md="6">
-          <a href="https://purelypeer.cash/" target="_blank">
-            <img class="portfolio-img" src="~/assets/portfolio/purelypeer.jpg" width="100%">
-          </a>
-        </b-col>
-      </b-row>
-      <b-row class="portfolio-item">
-        <b-col sm="12" md="6">
-          <h6>
             <i><a href="https://www.paytaca.com/" target="_blank">Paytaca.com</a></i>
           </h6>
           <h4>Paytaca</h4>
@@ -50,6 +33,23 @@
         <b-col sm="12" md="6">
           <a href="https://www.paytaca.com/" target="_blank">
             <img class="portfolio-img" src="~/assets/portfolio/paytaca.jpg" width="100%">
+          </a>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item">
+        <b-col sm="12" md="6">
+          <h6>
+            <i><a href="https://purelypeer.cash/" target="_blank">PurelyPeer.cash</a></i>
+          </h6>
+          <h4>Purely Peer</h4>
+          <p class="company-info">
+            Peer Quest Ventures Ltd., Hong Kong
+          </p>
+          <p>PurelyPeer is an innovative platform that combines geolocation gaming with digital finance. At its core, it's a digital wallet that enables users to create and participate in location-based quests. These quests involve strategically placed Bitcoin Cash (BCH) cashdrops in real-world locations, creating a unique blend of digital treasure hunting and micro-advertising. The platform fosters a vibrant peer-to-peer economy by encouraging users to spend their collected BCH at participating merchants. Through this gamified approach, PurelyPeer not only builds an engaging virtual community but also drives real-world economic activity, making cryptocurrency more accessible and fun for everyone.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <a href="https://purelypeer.cash/" target="_blank">
+            <img class="portfolio-img" src="~/assets/portfolio/purelypeer.jpg" width="100%">
           </a>
         </b-col>
       </b-row>
