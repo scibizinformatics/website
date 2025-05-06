@@ -23,65 +23,76 @@
       />
     </b-carousel>
 
-    <div id="call-to-action">
-      <b-row style="padding: 20px;">
-        <b-col id="cta-text" class="text-center">
-          <span>SciBiz Informatics</span> is helping shape a better future one venture at a time.
-        </b-col>
-      </b-row>
+    <div v-if="!isCarouselLoaded" class="loader-container">
+      <div class="spinner" />
     </div>
 
-    <!-- Mission Statement -->
-    <div class="mission-statement">
-      <b-row>
-        <b-col md="12" class="text-center">
-          <h2 class="section-title">
-            Our Mission
-          </h2>
-          <p class="mission-text">
-            We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
-          </p>
-        </b-col>
-      </b-row>
-    </div>
+    <div v-if="isCarouselLoaded">
+      <div id="call-to-action" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
+        <b-row style="padding: 20px;">
+          <b-col id="cta-text" class="text-center">
+            <span>SciBiz Informatics</span> is helping shape a better future one venture at a time.
+          </b-col>
+        </b-row>
+      </div>
 
-    <!-- Services Section -->
-    <section class="services-section">
-      <b-row>
-        <b-col md="4">
-          <div class="service-card">
-            <i class="fas fa-cubes service-icon" />
-            <h3>Emerging Technologies</h3>
-            <p>Leveraging cutting-edge technologies like blockchain, AI, and genomics to create innovative solutions for real-world challenges.</p>
-          </div>
-        </b-col>
-        <b-col md="4">
-          <div class="service-card">
-            <i class="fas fa-lightbulb service-icon" />
-            <h3>Innovation Studio</h3>
-            <p>Transforming bold ideas into scalable products through our highly skilled, adaptable, and challenge-driven product development team.</p>
-          </div>
-        </b-col>
-        <b-col md="4">
-          <div class="service-card">
-            <i class="fas fa-rocket service-icon" />
-            <h3>Venture Building</h3>
-            <p>Building and scaling ventures that empower industries and communities through technology-driven solutions.</p>
-          </div>
-        </b-col>
-      </b-row>
-    </section>
+      <!-- Mission Statement -->
+      <div class="mission-statement" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
+        <b-row>
+          <b-col md="12" class="text-center">
+            <h2 class="section-title">
+              Our Mission
+            </h2>
+            <p class="mission-text">
+              We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
+            </p>
+          </b-col>
+        </b-row>
+      </div>
 
-    <div class="mt-2 mb-4 text-center">
-      <b-button variant="outline-primary" to="/about" size="lg">
-        Learn More About Us
-      </b-button>
+      <!-- Services Section -->
+      <section class="services-section">
+        <b-row>
+          <b-col md="4" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000" data-aos-once="false">
+            <div class="service-card">
+              <i class="fas fa-cubes service-icon" />
+              <h3>Emerging Technologies</h3>
+              <p>Leveraging cutting-edge technologies like blockchain, AI, and genomics to create innovative solutions for real-world challenges.</p>
+            </div>
+          </b-col>
+          <b-col md="4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="false">
+            <div class="service-card">
+              <i class="fas fa-lightbulb service-icon" />
+              <h3>Innovation Studio</h3>
+              <p>Transforming bold ideas into scalable products through our highly skilled, adaptable, and challenge-driven product development team.</p>
+            </div>
+          </b-col>
+          <b-col md="4" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
+            <div class="service-card">
+              <i class="fas fa-rocket service-icon" />
+              <h3>Venture Building</h3>
+              <p>Building and scaling ventures that empower industries and communities through technology-driven solutions.</p>
+            </div>
+          </b-col>
+        </b-row>
+      </section>
+
+      <div class="mt-2 mb-4 text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false">
+        <b-button variant="outline-primary" to="/about" size="lg">
+          Learn More About Us
+        </b-button>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  data () {
+    return {
+      isCarouselLoaded: false
+    }
+  },
   head () {
     return {
       title: 'SciBiz Informatics | Innovation Studio & Venture Builder',
@@ -108,6 +119,12 @@ export default {
         }
       ]
     }
+  },
+  mounted () {
+    // Set carousel as loaded after a short delay to ensure images are loaded
+    setTimeout(() => {
+      this.isCarouselLoaded = true
+    }, 1000)
   }
 }
 </script>
@@ -251,5 +268,26 @@ section {
 .contact-email:hover {
   color: #f1f1f1;
   text-decoration: none;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0044aa;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 </style>

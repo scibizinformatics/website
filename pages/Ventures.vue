@@ -1,6 +1,6 @@
 <template>
   <div class="ventures-page">
-    <div class="hero-section text-center mb-5">
+    <div class="hero-section text-center mb-5" data-aos="fade-down">
       <h1 class="display-4">
         Our Ventures
       </h1>
@@ -8,12 +8,12 @@
     </div>
 
     <b-container>
-      <b-row style="margin-top: 20px;" class="featured-row">
+      <b-row style="margin-top: 20px;" class="featured-row" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="3" class="featured">
           LAUNCHED VENTURES
         </b-col>
       </b-row>
-      <b-row class="portfolio-item">
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="6">
           <h6>
             <i><a href="https://www.paytaca.com/" target="_blank">Paytaca.com</a></i>
@@ -36,7 +36,7 @@
           </a>
         </b-col>
       </b-row>
-      <b-row class="portfolio-item">
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="6">
           <h6>
             <i><a href="https://purelypeer.cash/" target="_blank">PurelyPeer.cash</a></i>
@@ -56,12 +56,12 @@
     </b-container>
 
     <b-container>
-      <b-row style="margin-top: 50px;" class="featured-row">
+      <b-row style="margin-top: 50px;" class="featured-row" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="3" class="featured">
           PROTOTYPING STAGE
         </b-col>
       </b-row>
-      <b-row class="portfolio-item">
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="6">
           <h6>
             <i><a href="https://workhippo.app/" target="_blank">WorkHippo.app</a></i>
@@ -80,12 +80,12 @@
     </b-container>
 
     <b-container>
-      <b-row style="margin-top: 50px;" class="featured-row">
+      <b-row style="margin-top: 50px;" class="featured-row" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="3" class="featured">
           IDEATION STAGE
         </b-col>
       </b-row>
-      <b-row class="portfolio-item">
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="6">
           <h6>
             <i><a href="https://www.sophrobiome.com" target="_blank">SophroBiome.com</a></i>
