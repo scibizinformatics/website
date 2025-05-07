@@ -222,7 +222,7 @@ section {
 
 .service-icon {
   font-size: 2.5rem;
-  color: #0044aa;
+  color: #5fbcd3;
   margin-bottom: 20px;
 }
 
