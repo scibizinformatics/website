@@ -73,6 +73,15 @@
           <p>ThinkerVille revolutionizes education by connecting teachers and learners through a borderless, blockchain-powered ecosystem. Educators can deliver structured lessons, live tutorials, and hands-on learning experiences, both in-person and online. With blockchain ensuring transparent reviews and cryptocurrency enabling instant global payments, ThinkerVille creates a trusted marketplace where educators earn fairly — and learners gain access to top-quality knowledge from anywhere in the world.</p>
         </b-col>
       </b-row>
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
+        <b-col sm="12" md="6">
+          <h6>
+            <i><a href="https://wageyapp.com" target="_blank">WageyApp.com</a></i>
+          </h6>
+          <h4>Wagey</h4>
+          <p>Wagey is a comprehensive payroll and workforce management platform designed to streamline attendance tracking and payroll processing for businesses of all sizes. With GPS-enabled selfie clock-ins, QR-based on-site attendance, and flexible schedule management, Wagey ensures accurate time tracking and effortless payroll calculations. The platform offers cut-off based computations, automated 13th month pay, and exportable reports—empowering HR teams with mobile access, multi-company support, and customizable admin permissions. For enterprises seeking ultimate security, Wagey integrates blockchain-based anti-tampering technology, delivering trust, transparency, and peace of mind in every payroll cycle.</p>
+        </b-col>
+      </b-row>
     </b-container>
 
     <b-container>
