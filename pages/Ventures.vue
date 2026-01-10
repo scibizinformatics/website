@@ -28,7 +28,7 @@
         </b-col>
         <b-col sm="12" md="6">
           <a href="https://www.paytaca.com/" target="_blank">
-            <img class="portfolio-img" src="~/assets/portfolio/paytaca.jpg" width="100%">
+            <img class="portfolio-img" src="~/assets/portfolio/paytaca.jpg" alt="Paytaca - Bitcoin Cash Super App - Venture Studio Philippines Portfolio" width="100%">
           </a>
         </b-col>
       </b-row>
@@ -45,7 +45,7 @@
         </b-col>
         <b-col sm="12" md="6">
           <a href="https://purelypeer.cash/" target="_blank">
-            <img class="portfolio-img" src="~/assets/portfolio/purelypeer.jpg" width="100%">
+            <img class="portfolio-img" src="~/assets/portfolio/purelypeer.jpg" alt="PurelyPeer - Location-based Gaming Platform - Venture Studio Philippines Portfolio" width="100%">
           </a>
         </b-col>
       </b-row>
@@ -117,29 +117,53 @@ export default {
     }
   },
   head () {
+    const siteUrl = 'https://www.scibizinformatics.com'
     return {
-      title: 'Our Ventures | SciBiz Informatics',
+      title: 'Our Ventures | Venture Studio Philippines Portfolio - SciBiz Informatics',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures, from launched products to prototypes in development. Discover how we\'re building the future of technology.'
+          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures built by our venture studio in the Philippines. From launched startups like Paytaca and PurelyPeer to prototypes in development, discover how we\'re building the future of technology.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'venture studio portfolio Philippines, startup studio ventures, venture builder projects Philippines, tech startups Philippines, blockchain startups Philippines, SciBiz ventures, Philippines startup portfolio'
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'Our Ventures | SciBiz Informatics'
+          content: 'Our Ventures | Venture Studio Philippines Portfolio - SciBiz Informatics'
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures, from launched products to prototypes in development. Discover how we\'re building the future of technology.'
+          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures built by our venture studio in the Philippines. From launched startups to prototypes in development.'
         },
         {
           hid: 'og:type',
           property: 'og:type',
           content: 'website'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${siteUrl}/ventures`
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Our Ventures | Venture Studio Philippines Portfolio - SciBiz Informatics'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'Explore SciBiz Informatics\' portfolio of innovative ventures built by our venture studio in the Philippines.'
         }
+      ],
+      link: [
+        { rel: 'canonical', href: `${siteUrl}/ventures` }
       ]
     }
   }

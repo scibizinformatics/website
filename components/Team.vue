@@ -10,7 +10,7 @@
         :data-aos="index % 3 === 0 ? 'fade-right' : index % 3 === 1 ? 'fade-up' : 'fade-left'"
         :data-aos-delay="(index % 3) * 100"
       >
-        <img :src="member.image">
+        <img :src="member.image" :alt="`${member.name} - ${member.role} at SciBiz Informatics Venture Studio Philippines`">
         <div class="details">
           <span class="name">{{ member.name }}</span><br>
           <span class="role">{{ member.role }}</span>

@@ -12,14 +12,17 @@
     >
       <b-carousel-slide
         :img-src="require('~/assets/sliders/slider_1.png')"
+        img-alt="SciBiz Informatics - Venture Studio Philippines"
       />
 
       <b-carousel-slide
         :img-src="require('~/assets/sliders/slider_2.png')"
+        img-alt="Venture Studio Philippines - SciBiz Informatics"
       />
 
       <b-carousel-slide
         :img-src="require('~/assets/sliders/slider_3.png')"
+        img-alt="Venture Builder Philippines - SciBiz Informatics"
       />
     </b-carousel>
 
@@ -31,7 +34,7 @@
       <div id="call-to-action" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-row style="padding: 20px;">
           <b-col id="cta-text" class="text-center">
-            <span>SciBiz Informatics</span> is helping shape a better future one venture at a time.
+            <span>SciBiz Informatics</span> is a leading <strong>venture studio</strong> in the Philippines, helping shape a better future one venture at a time.
           </b-col>
         </b-row>
       </div>
@@ -40,11 +43,11 @@
       <div class="mission-statement" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-row>
           <b-col md="12" class="text-center">
-            <h2 class="section-title">
-              Our Mission
-            </h2>
+            <h1 class="section-title">
+              Leading Venture Studio in the Philippines
+            </h1>
             <p class="mission-text">
-              We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
+              As a premier <strong>venture studio</strong> based in Tacloban City, Philippines, SciBiz Informatics transforms bold ideas into scalable products. We empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
             </p>
           </b-col>
         </b-row>
@@ -78,7 +81,7 @@
             <div class="service-card">
               <i class="fas fa-lightbulb service-icon" />
               <h3>Innovation Studio</h3>
-              <p>Transforming bold ideas into scalable products through our highly skilled, adaptable, and challenge-driven product development team.</p>
+              <p>We transform bold ideas into scalable products through our highly skilled, adaptable, and challenge-driven product development team.</p>
             </div>
           </b-col>
           <b-col
@@ -92,7 +95,7 @@
             <div class="service-card">
               <i class="fas fa-rocket service-icon" />
               <h3>Venture Building</h3>
-              <p>Building and scaling ventures that empower industries and communities through technology-driven solutions.</p>
+              <p>We build and scale ventures that empower industries and communities through technology-driven solutions.</p>
             </div>
           </b-col>
         </b-row>
@@ -115,28 +118,138 @@ export default {
     }
   },
   head () {
+    const siteUrl = 'https://www.scibizinformatics.com'
     return {
-      title: 'SciBiz Informatics | Innovation Studio & Venture Builder',
+      title: 'SciBiz Informatics | Venture Studio in the Philippines',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities.'
+          content: 'SciBiz Informatics is a leading venture studio in the Philippines. Based in Tacloban City, we transform bold ideas into scalable products through emerging technologies like blockchain, AI, and genomics.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'venture studio Philippines, startup studio Philippines, venture builder Philippines, innovation studio Philippines, startup builder Philippines, tech startup Philippines, Tacloban startup, Philippines venture studio, startup incubator Philippines'
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'SciBiz Informatics | Innovation Studio & Venture Builder'
+          content: 'SciBiz Informatics | Venture Studio in the Philippines'
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities.'
+          content: 'Leading venture studio in the Philippines. Transform bold ideas into scalable products through emerging technologies.'
         },
         {
           hid: 'og:type',
           property: 'og:type',
           content: 'website'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: siteUrl
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: `${siteUrl}/assets/logo.png`
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'SciBiz Informatics | Venture Studio in the Philippines'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'Leading venture studio in the Philippines. Transform bold ideas into scalable products.'
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: `${siteUrl}/assets/logo.png`
+        }
+      ],
+      link: [
+        { rel: 'canonical', href: siteUrl }
+      ],
+      __dangerouslyDisableSanitizers: ['script'],
+      script: [
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'SciBiz Informatics',
+            alternateName: 'SciBiz',
+            url: siteUrl,
+            logo: `${siteUrl}/assets/logo.png`,
+            description: 'Leading venture studio in the Philippines. We transform bold ideas into scalable products through emerging technologies.',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Tacloban City',
+              addressRegion: 'Leyte',
+              addressCountry: 'PH'
+            },
+            sameAs: [
+              'https://facebook.com/scibizinformatics',
+              'https://twitter.com/scibizinfo',
+              'https://linkedin.com/company/scibizinformatics'
+            ],
+            contactPoint: {
+              '@type': 'ContactPoint',
+              email: 'info@scibizinformatics.com',
+              contactType: 'Customer Service'
+            },
+            foundingDate: '2015',
+            numberOfEmployees: {
+              '@type': 'QuantitativeValue',
+              value: '20+'
+            },
+            areaServed: {
+              '@type': 'Country',
+              name: 'Philippines'
+            },
+            knowsAbout: [
+              'Venture Studio',
+              'Venture Builder',
+              'Blockchain Technology',
+              'Artificial Intelligence',
+              'Software Development',
+              'Tech Innovation'
+            ]
+          })
+        },
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            '@id': siteUrl,
+            name: 'SciBiz Informatics',
+            image: `${siteUrl}/assets/logo.png`,
+            priceRange: '$$',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Tacloban City',
+              addressRegion: 'Leyte',
+              addressCountry: 'PH'
+            },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: '11.2434',
+              longitude: '125.0050'
+            },
+            url: siteUrl,
+            sameAs: [
+              'https://facebook.com/scibizinformatics',
+              'https://twitter.com/scibizinfo',
+              'https://linkedin.com/company/scibizinformatics'
+            ]
+          })
         }
       ]
     }

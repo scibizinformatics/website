@@ -2,7 +2,7 @@
   <div class="about-page">
     <div class="hero-section text-center mb-5" data-aos="fade-down">
       <h1 class="display-4" style="color: #0044aa;">
-        About Us
+        About Our Venture Studio in the Philippines
       </h1>
       <div class="hero-divider" />
     </div>
@@ -10,7 +10,7 @@
     <b-row class="mb-5 intro-section" data-aos="fade-up">
       <b-col>
         <p class="lead">
-          SciBiz Informatics is an innovation studio and venture builder focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
+          SciBiz Informatics is a leading <strong>venture studio</strong> in the Philippines, focused on delivering real-world solutions through emerging technologies. We transform bold ideas into scalable products that empower industries, individuals, and communities—driving the adoption of cutting-edge tools that shape the future.
         </p>
         <div class="mission-statement text-center my-5" data-aos="zoom-in" data-aos-delay="200">
           <h2 class="display-5" style="color: #0044aa;">
@@ -18,7 +18,7 @@
           </h2>
         </div>
         <p class="text-center">
-          Founded in 2015 and based in Tacloban City, Philippines, SciBiz began as a custom software development company serving clients worldwide. Today, we've grown into a full-fledged venture studio that creates, builds, and launches tech startups from within.
+          Founded in 2015 and based in <strong>Tacloban City, Philippines</strong>, SciBiz began as a custom software development company serving clients worldwide. Today, we've grown into a full-fledged <strong>venture studio</strong> that creates, builds, and launches tech startups from within. We combine technical expertise with business acumen to build successful, scalable companies.
         </p>
       </b-col>
     </b-row>
@@ -110,29 +110,53 @@ export default {
     }
   },
   head () {
+    const siteUrl = 'https://www.scibizinformatics.com'
     return {
-      title: 'About Us | SciBiz Informatics',
+      title: 'About Us | Venture Studio Philippines - SciBiz Informatics',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Learn about SciBiz Informatics, an innovation studio and venture builder based in Tacloban City, Philippines. Discover our mission, vision, and what sets us apart in the tech industry.'
+          content: 'Learn about SciBiz Informatics, a leading venture studio based in Tacloban City, Philippines. Founded in 2015, we transform bold ideas into scalable tech startups through emerging technologies.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'venture studio Philippines, startup studio Philippines, venture builder Philippines, Tacloban startup, Philippines tech company, startup incubator Philippines, tech innovation Philippines'
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: 'About Us | SciBiz Informatics'
+          content: 'About Us | Venture Studio Philippines - SciBiz Informatics'
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'Learn about SciBiz Informatics, an innovation studio and venture builder based in Tacloban City, Philippines. Discover our mission, vision, and what sets us apart in the tech industry.'
+          content: 'Learn about SciBiz Informatics, a leading venture studio based in Tacloban City, Philippines. Founded in 2015, we transform bold ideas into scalable tech startups.'
         },
         {
           hid: 'og:type',
           property: 'og:type',
           content: 'website'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `${siteUrl}/about`
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'About Us | Venture Studio Philippines - SciBiz Informatics'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'Learn about SciBiz Informatics, a leading venture studio based in Tacloban City, Philippines.'
         }
+      ],
+      link: [
+        { rel: 'canonical', href: `${siteUrl}/about` }
       ]
     }
   }
