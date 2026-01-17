@@ -10,7 +10,7 @@
         :data-aos="index % 3 === 0 ? 'fade-right' : index % 3 === 1 ? 'fade-up' : 'fade-left'"
         :data-aos-delay="(index % 3) * 100"
       >
-        <img :src="member.image" :alt="`${member.name} - ${member.role} at SciBiz Informatics Venture Studio Philippines`">
+        <img :src="member.image">
         <div class="details">
           <span class="name">{{ member.name }}</span><br>
           <span class="role">{{ member.role }}</span>
@@ -30,7 +30,6 @@ export default {
         { name: 'Geraldine Taganna', role: 'Corporate Services Manager', image: require('../assets/team/gevan.png') },
         { name: 'Gzyll Kae Honorio', role: 'Corporate Services Supervisor', image: require('../assets/team/gzyll.png') },
         { name: 'Reca Joy Torre', role: 'Corporate Services Associate', image: require('../assets/team/reca.png') },
-        { name: 'Gwyneth Mae Avestruz', role: 'Corporate Services Associate', image: require('../assets/team/gwyn.png') },
         { name: 'Arnel Cabanatan', role: 'Graphic Artist', image: require('../assets/team/arnel.png') },
         { name: 'Reamon Sumapig', role: 'Software Developer', image: require('../assets/team/reamon.png') },
         { name: 'Marie Edcel Balite', role: 'Software Developer', image: require('../assets/team/edcel.png') },
