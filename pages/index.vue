@@ -1,27 +1,45 @@
 <template>
   <div class="home">
-    <b-carousel
-      id="carousel"
-      style="text-shadow: 1px 1px 2px #333;"
-      indicators
-      controls
-      background="#ababab"
-      :interval="3000"
-      img-width="1024"
-      img-height="480"
-    >
-      <b-carousel-slide
-        :img-src="require('~/assets/sliders/slider_1.png')"
-      />
+    <div class="carousel-wrapper">
+      <div class="carousel-progress-bar">
+        <div class="carousel-progress-fill" :style="{ width: progressPercent + '%' }" />
+      </div>
+      <b-carousel
+        id="carousel"
+        ref="carousel"
+        v-model="currentSlide"
+        style="text-shadow: 1px 1px 2px #333;"
+        indicators
+        controls
+        background="#ababab"
+        :interval="0"
+        img-width="1024"
+        img-height="480"
+      >
+        <b-carousel-slide
+          :img-src="require('~/assets/sliders/venture-transformation-pipeline.png')"
+        />
 
-      <b-carousel-slide
-        :img-src="require('~/assets/sliders/slider_2.png')"
-      />
+        <b-carousel-slide
+          :img-src="require('~/assets/sliders/tech-constellation.png')"
+        />
 
-      <b-carousel-slide
-        :img-src="require('~/assets/sliders/slider_3.png')"
-      />
-    </b-carousel>
+        <b-carousel-slide
+          :img-src="require('~/assets/sliders/shared-success-model.png')"
+        />
+      </b-carousel>
+
+      <div class="carousel-pause-btn">
+        <b-button
+          variant="light"
+          size="sm"
+          @click="toggleCarouselPause"
+        >
+          <i :class="isCarouselPaused ? 'fas fa-play' : 'fas fa-pause'" />
+          {{ isCarouselPaused ? 'Play' : 'Pause' }}
+        </b-button>
+      </div>
+    </div>
 
     <div v-if="!isCarouselLoaded" class="loader-container">
       <div class="spinner" />
@@ -31,7 +49,7 @@
       <div id="call-to-action" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-row style="padding: 20px;">
           <b-col id="cta-text" class="text-center">
-            <span>SciBiz Informatics</span> is helping shape a better future one venture at a time.
+            <span>SciBiz Informatics</span> is powering ventures that build a better future.
           </b-col>
         </b-row>
       </div>
@@ -111,7 +129,14 @@
 export default {
   data () {
     return {
-      isCarouselLoaded: false
+      isCarouselLoaded: false,
+      isCarouselPaused: false,
+      currentSlide: 0,
+      slideCount: 3,
+      slideDuration: 6000,
+      progressPercent: 0,
+      lastTimestamp: null,
+      animationFrameId: null
     }
   },
   head () {
@@ -146,17 +171,118 @@ export default {
     setTimeout(() => {
       this.isCarouselLoaded = true
     }, 1000)
+    this.startProgressLoop()
+  },
+  beforeDestroy () {
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId)
+    }
+  },
+  methods: {
+    startProgressLoop () {
+      this.lastTimestamp = performance.now()
+      this.animationFrameId = requestAnimationFrame(this.updateProgress)
+    },
+    updateProgress (timestamp) {
+      if (!this.isCarouselPaused) {
+        const elapsed = timestamp - this.lastTimestamp
+        this.progressPercent += (elapsed / this.slideDuration) * 100
+        if (this.progressPercent >= 100) {
+          this.progressPercent = 0
+          this.currentSlide = (this.currentSlide + 1) % this.slideCount
+        }
+      }
+      this.lastTimestamp = timestamp
+      this.animationFrameId = requestAnimationFrame(this.updateProgress)
+    },
+    toggleCarouselPause () {
+      this.isCarouselPaused = !this.isCarouselPaused
+      if (!this.isCarouselPaused) {
+        this.progressPercent = 0
+        this.currentSlide = (this.currentSlide + 1) % this.slideCount
+      }
+    }
   }
 }
 </script>
 
 <style scoped>
+::v-deep .carousel-indicators li {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background-color: #0044aa !important;
+  opacity: 0.5 !important;
+  border: 2px solid #fff !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  margin: 0 5px !important;
+}
+
+::v-deep .carousel-indicators .active {
+  opacity: 1 !important;
+  background-color: #0044aa !important;
+  transform: scale(1.2);
+}
+
 h1, h2, h3 {
   color: #0044aa;
 }
 
 .home {
   padding-top: 30px;
+  position: relative;
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 15;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.carousel-progress-fill {
+  height: 100%;
+  background-color: #0044aa;
+  transition: width 0.05s linear;
+}
+
+.carousel-pause-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 20;
+}
+
+.carousel-pause-btn .btn {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-pause-btn .btn:hover {
+  opacity: 1;
+}
+
+#carousel {
+  border: 2px solid rgba(0, 68, 170, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 68, 170, 0.1);
+  overflow: visible;
+  position: relative;
+}
+
+#carousel .carousel-control-prev,
+#carousel .carousel-control-next,
+#carousel .carousel-indicators {
+  z-index: 11;
 }
 
 #carousel h1 {

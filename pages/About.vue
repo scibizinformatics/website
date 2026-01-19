@@ -45,7 +45,9 @@
     </div>
 
     <div class="section-header" data-aos="fade-up">
-      <h3 style="color: #0044aa;">What Sets Us Apart</h3>
+      <h3 style="color: #0044aa;">
+        What Sets Us Apart
+      </h3>
       <div class="section-divider" />
     </div>
     <b-row class="mb-5">
@@ -72,7 +74,7 @@
 
     <div class="cta-section text-center mb-5" data-aos="zoom-in">
       <h2 class="join-us">
-        Join us as we shape the future—<br>one venture at a time.
+        Join us as we power ventures<br>that build a better future.
       </h2>
     </div>
 
