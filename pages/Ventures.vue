@@ -70,7 +70,7 @@
             <i><a href="https://thinkerville.education/" target="_blank">ThinkerVille.education</a></i>
           </h6>
           <h4>ThinkerVille</h4>
-          <p>ThinkerVille revolutionizes education by connecting teachers and learners through a borderless, blockchain-powered ecosystem. Educators can deliver structured lessons, live tutorials, and hands-on learning experiences, both in-person and online. With blockchain ensuring transparent reviews and cryptocurrency enabling instant global payments, ThinkerVille creates a trusted marketplace where educators earn fairly — and learners gain access to top-quality knowledge from anywhere in the world.</p>
+          <p>ThinkerVille is an AI-powered personalized exam review platform built for professional licensure examinations. It adapts the review experience to each learner’s weaknesses, improving exam readiness beyond traditional review programs. This allows candidates to maximize results with less wasted effort and time. By guiding review with precision and focus, ThinkerVille turns preparation into measurable confidence and performance.</p>
         </b-col>
       </b-row>
       <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
@@ -79,7 +79,7 @@
             <i><a href="https://wageyapp.com" target="_blank">WageyApp.com</a></i>
           </h6>
           <h4>Wagey</h4>
-          <p>Wagey is a comprehensive payroll and workforce management platform designed to streamline attendance tracking and payroll processing for businesses of all sizes. With GPS-enabled selfie clock-ins, QR-based on-site attendance, and flexible schedule management, Wagey ensures accurate time tracking and effortless payroll calculations. The platform offers cut-off based computations, automated 13th month pay, and exportable reports—empowering HR teams with mobile access, multi-company support, and customizable admin permissions. For enterprises seeking ultimate security, Wagey integrates blockchain-based anti-tampering technology, delivering trust, transparency, and peace of mind in every payroll cycle.</p>
+          <p>Wagey is a payroll and workforce management platform that streamlines attendance tracking and payroll processing for businesses of all sizes. With GPS-enabled clock-ins, QR-based attendance, and flexible scheduling, it ensures accurate time tracking and effortless payroll computation, including automated 13th month pay and exportable reports. Blockchain-based anti-tampering adds an extra layer of trust, giving organizations confidence in every payroll cycle.</p>
         </b-col>
       </b-row>
     </b-container>
