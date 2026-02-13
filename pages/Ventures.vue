@@ -81,6 +81,13 @@
           <h4>Wagey</h4>
           <p>Wagey is a payroll and workforce management platform that streamlines attendance tracking and payroll processing for businesses of all sizes. With GPS-enabled clock-ins, QR-based attendance, and flexible scheduling, it ensures accurate time tracking and effortless payroll computation, including automated 13th month pay and exportable reports. Blockchain-based anti-tampering adds an extra layer of trust, giving organizations confidence in every payroll cycle.</p>
         </b-col>
+        <b-col sm="12" md="6">
+          <h6>
+            <i><a href="https://acojan.com" target="_blank">Acojan.com</a></i>
+          </h6>
+          <h4>Acojan</h4>
+          <p>Acojan is an API-first booking platform for parking spaces that enables service booking apps and web applications to seamlessly integrate parking functionality into their ecosystems. Built with developers in mind, Acojan provides a comprehensive RESTful API that allows any platform to offer parking reservations without building the infrastructure from scratch. The platform connects parking space owners with drivers, optimizing utilization rates and reducing urban congestion through real-time availability, dynamic pricing, and automated reservation management.</p>
+        </b-col>
       </b-row>
     </b-container>
 

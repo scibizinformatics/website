@@ -42,6 +42,7 @@ export default {
         { name: 'Sean Nicole Lino', role: 'Software Developer', image: require('../assets/team/sean.png') },
         { name: 'Felix Flores', role: 'Software Developer', image: require('../assets/team/felix.png') },
         { name: 'Sherel Jade Calixto', role: 'Software Developer', image: require('../assets/team/sherel.png') },
+        { name: 'John Anthony Dilao', role: 'Software Developer', image: require('../assets/team/nio.png') },
         { name: 'Adrian Salave', role: 'Software Tester', image: require('../assets/team/adrian.png') }
       ]
     }
