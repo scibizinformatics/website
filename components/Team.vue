@@ -31,7 +31,6 @@ export default {
         { name: 'Gzyll Kae Honorio', role: 'Corporate Services Supervisor', image: require('../assets/team/gzyll.png') },
         { name: 'Reca Joy Torre', role: 'Corporate Services Associate', image: require('../assets/team/reca.png') },
         { name: 'Arnel Cabanatan', role: 'Graphic Artist', image: require('../assets/team/arnel.png') },
-        { name: 'Reamon Sumapig', role: 'Software Developer', image: require('../assets/team/reamon.png') },
         { name: 'Marie Edcel Balite', role: 'Software Developer', image: require('../assets/team/edcel.png') },
         { name: 'Jethro Albano', role: 'Software Developer', image: require('../assets/team/jethro.png') },
         { name: 'Jeff Khirvy Sarmen', role: 'Software Developer', image: require('../assets/team/jeff.png') },
@@ -42,6 +41,10 @@ export default {
         { name: 'Sean Nicole Lino', role: 'Software Developer', image: require('../assets/team/sean.png') },
         { name: 'Felix Flores', role: 'Software Developer', image: require('../assets/team/felix.png') },
         { name: 'Sherel Jade Calixto', role: 'Software Developer', image: require('../assets/team/sherel.png') },
+        { name: 'Arvin Lesigues', role: 'Software Developer', image: require('../assets/team/arvin.png') },
+        { name: 'Carl Joshua Regis', role: 'Software Developer', image: require('../assets/team/carl.png') },
+        { name: 'Drake Carcellar', role: 'Software Developer', image: require('../assets/team/drake.png') },
+        { name: 'Michael Omisol', role: 'Software Developer', image: require('../assets/team/michael.png') },
         { name: 'John Anthony Dilao', role: 'Software Developer', image: require('../assets/team/nio.png') },
         { name: 'Adrian Salave', role: 'Software Tester', image: require('../assets/team/adrian.png') }
       ]
