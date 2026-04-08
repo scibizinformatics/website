@@ -1,58 +1,40 @@
 <template>
   <div class="home">
-    <div class="carousel-wrapper">
-      <div class="carousel-progress-bar">
-        <div class="carousel-progress-fill" :style="{ width: progressPercent + '%' }" />
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up" data-aos-duration="800">
+          From Bold Ideas into<br>Scalable Ventures
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          We build, launch, scale, and succeed.
+        </p>
+        <div class="hero-ctas" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <b-button variant="primary" size="lg" to="/ventures" class="mr-3">
+            Explore Ventures
+          </b-button>
+          <b-button variant="outline-primary" size="lg" to="/about">
+            Learn More
+          </b-button>
+        </div>
+
+        <div class="hero-stats" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <div class="stat-item">
+            <div class="stat-number">2015</div>
+            <div class="stat-label">Founded</div>
+          </div>
+          <div class="stat-divider" />
+          <div class="stat-item">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Ventures Built</div>
+          </div>
+          <div class="stat-divider" />
+          <div class="stat-item">
+            <div class="stat-number">₱50M+</div>
+            <div class="stat-label">Raised</div>
+          </div>
+        </div>
       </div>
-      <b-carousel
-        id="carousel"
-        ref="carousel"
-        v-model="currentSlide"
-        style="text-shadow: 1px 1px 2px #333;"
-        indicators
-        controls
-        background="#ababab"
-        :interval="0"
-        img-width="1024"
-        img-height="480"
-      >
-        <b-carousel-slide
-          :img-src="require('~/assets/sliders/venture-transformation-pipeline.png')"
-        />
-
-        <b-carousel-slide
-          :img-src="require('~/assets/sliders/tech-constellation.png')"
-        />
-
-        <b-carousel-slide
-          :img-src="require('~/assets/sliders/shared-success-model.png')"
-        />
-      </b-carousel>
-
-      <div class="carousel-pause-btn">
-        <b-button
-          variant="light"
-          size="sm"
-          @click="toggleCarouselPause"
-        >
-          <i :class="isCarouselPaused ? 'fas fa-play' : 'fas fa-pause'" />
-          {{ isCarouselPaused ? 'Play' : 'Pause' }}
-        </b-button>
-      </div>
-    </div>
-
-    <div v-if="!isCarouselLoaded" class="loader-container">
-      <div class="spinner" />
-    </div>
-
-    <div v-if="isCarouselLoaded">
-      <div id="call-to-action" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
-        <b-row style="padding: 20px;">
-          <b-col id="cta-text" class="text-center">
-            <span>SciBiz Informatics</span> is powering ventures that build a better future.
-          </b-col>
-        </b-row>
-      </div>
+</section>
 
       <!-- Mission Statement -->
       <div class="mission-statement" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
@@ -121,24 +103,11 @@
           Learn More About Us
         </b-button>
       </div>
-    </div>
   </div>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-      isCarouselLoaded: false,
-      isCarouselPaused: false,
-      currentSlide: 0,
-      slideCount: 3,
-      slideDuration: 6000,
-      progressPercent: 0,
-      lastTimestamp: null,
-      animationFrameId: null
-    }
-  },
   head () {
     return {
       title: 'SciBiz Informatics | Innovation Studio & Venture Builder',
@@ -165,149 +134,100 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    // Set carousel as loaded after a short delay to ensure images are loaded
-    setTimeout(() => {
-      this.isCarouselLoaded = true
-    }, 1000)
-    this.startProgressLoop()
-  },
-  beforeDestroy () {
-    if (this.animationFrameId) {
-      cancelAnimationFrame(this.animationFrameId)
-    }
-  },
-  methods: {
-    startProgressLoop () {
-      this.lastTimestamp = performance.now()
-      this.animationFrameId = requestAnimationFrame(this.updateProgress)
-    },
-    updateProgress (timestamp) {
-      if (!this.isCarouselPaused) {
-        const elapsed = timestamp - this.lastTimestamp
-        this.progressPercent += (elapsed / this.slideDuration) * 100
-        if (this.progressPercent >= 100) {
-          this.progressPercent = 0
-          this.currentSlide = (this.currentSlide + 1) % this.slideCount
-        }
-      }
-      this.lastTimestamp = timestamp
-      this.animationFrameId = requestAnimationFrame(this.updateProgress)
-    },
-    toggleCarouselPause () {
-      this.isCarouselPaused = !this.isCarouselPaused
-      if (!this.isCarouselPaused) {
-        this.progressPercent = 0
-        this.currentSlide = (this.currentSlide + 1) % this.slideCount
-      }
-    }
   }
 }
 </script>
 
 <style scoped>
-::v-deep .carousel-indicators li {
-  width: 12px !important;
-  height: 12px !important;
-  border-radius: 50% !important;
-  background-color: #0044aa !important;
-  opacity: 0.5 !important;
-  border: 2px solid #fff !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
-  margin: 0 5px !important;
-}
-
-::v-deep .carousel-indicators .active {
-  opacity: 1 !important;
-  background-color: #0044aa !important;
-  transform: scale(1.2);
-}
-
 h1, h2, h3 {
   color: #0044aa;
 }
 
 .home {
-  padding-top: 30px;
+  padding-top: 0;
   position: relative;
 }
 
-.carousel-wrapper {
-  position: relative;
+.hero-section {
+  background: #fff;
+  padding: 100px 20px 80px;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.carousel-progress-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background-color: rgba(0, 0, 0, 0.15);
-  z-index: 15;
-  border-radius: 8px 8px 0 0;
-  overflow: hidden;
+.hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.carousel-progress-fill {
-  height: 100%;
-  background-color: #0044aa;
-  transition: width 0.05s linear;
-}
-
-.carousel-pause-btn {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 20;
-}
-
-.carousel-pause-btn .btn {
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-
-.carousel-pause-btn .btn:hover {
-  opacity: 1;
-}
-
-#carousel {
-  border: 2px solid rgba(0, 68, 170, 0.2);
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 68, 170, 0.1);
-  overflow: visible;
-  position: relative;
-}
-
-#carousel .carousel-control-prev,
-#carousel .carousel-control-next,
-#carousel .carousel-indicators {
-  z-index: 11;
-}
-
-#carousel h1 {
-  color: black;
-}
-
-#call-to-action {
-  margin-top: 20px;
-  background: #f1f1f1;
-  border-radius: 5px;
-}
-
-#cta-text {
-  font-size: 22px;
-  padding: 20px;
-}
-
-#cta-text span {
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
   color: #0044aa;
-  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
 }
 
-/* Mission Statement */
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #495057;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.hero-ctas {
+  margin-bottom: 3rem;
+}
+
+.hero-ctas .btn {
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  min-width: 160px;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #5fbcd3;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0044aa;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 40px;
+  background: #dee2e6;
+}
+
 .mission-statement {
-  padding: 60px 0;
+  padding: 60px 0 80px;
   background-color: #f8f9fa;
 }
 
@@ -319,7 +239,6 @@ h1, h2, h3 {
   line-height: 1.6;
 }
 
-/* New Sections Styling */
 section {
   padding: 60px 0;
 }
@@ -331,7 +250,6 @@ section {
   font-weight: 600;
 }
 
-/* Services Section */
 .service-card {
   text-align: center;
   padding: 30px;
@@ -362,7 +280,6 @@ section {
   line-height: 1.6;
 }
 
-/* Ventures Section */
 .ventures-section {
   background-color: #f8f9fa;
 }
@@ -391,7 +308,6 @@ section {
   margin-bottom: 15px;
 }
 
-/* Contact Section */
 .contact-section {
   background: linear-gradient(rgba(0, 68, 170, 0.9), rgba(0, 68, 170, 0.9));
   color: white;
@@ -417,27 +333,6 @@ section {
   text-decoration: none;
 }
 
-.loader-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #f3f3f3;
-  border-top: 4px solid #0044aa;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
 .card-container {
   margin-bottom: 30px;
 }
@@ -445,6 +340,40 @@ section {
 @media screen and (min-width: 768px) {
   .card-container {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .stat-divider {
+    width: 40px;
+    height: 1px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .hero-ctas .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .hero-ctas .mr-3 {
+    margin-right: 0 !important;
   }
 }
 </style>
