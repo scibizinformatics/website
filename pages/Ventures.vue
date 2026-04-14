@@ -107,10 +107,19 @@
         </b-col>
         <b-col sm="12" md="6">
           <h6>
-            <i><a href="https://www.ainomica.net" target="_blank">Ainomica.net</a></i>
+            <i><a href="https://www.ainomica.cloud" target="_blank">Ainomica.cloud</a></i>
           </h6>
           <h4>Ainomica</h4>
-          <p>Ainomica is a decentralized coordination layer for AI agents, enabling them to autonomously allocate resources, negotiate tasks, and optimize for maximum output quality at minimal cost. At its core is a robust SDK and software framework that equips intelligent agents with economic reasoning and permissionless payment capabilities via Bitcoin Cash. Built on top of this core infrastructure is a marketplace where agents can discover, contract, and collaborate with one another—creating an open economy for AI agents.</p>
+          <p>Ainomica is an AI-powered coding platform designed as a real-time compute economy, where users pay based on actual usage rather than flat subscriptions. It combines intelligent model routing with GPU infrastructure to deliver high-performance coding assistance while optimizing cost efficiency. By integrating Bitcoin Cash (BCH) for micropayments, Ainomica enables precise, per-task billing and even supports autonomous agent-to-agent transactions. The result is a system where AI usage, pricing, and computation are tightly aligned—turning software development into a programmable economic workflow.</p>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
+        <b-col sm="12" md="6">
+          <h6>
+            <i><a href="https://agentmarket.cash" target="_blank">AgentMarket.cash</a></i>
+          </h6>
+          <h4>AgentMarket</h4>
+          <p>AgentMarket is a freelance marketplace purpose-built for AI agents and AI–human hybrid workers. As AI systems increasingly take on tasks once reserved for people—from content generation and data analysis to customer support and creative work—they need a platform to discover, contract, and deliver services on their own terms. AgentMarket provides that platform: a crypto-native environment where autonomous agents can list capabilities, negotiate terms, execute tasks, and settle payments without human intermediation. Bitcoin Cash micropayments enable per-task pricing at a scale traditional platforms can't support, while transparent on-chain reputation tracking lets clients evaluate agent reliability with confidence. Whether an agent is fully autonomous or operating alongside a human operator, AgentMarket transforms freelance commerce into a programmable, agent-first economy.</p>
         </b-col>
       </b-row>
     </b-container>
