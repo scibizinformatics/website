@@ -39,14 +39,11 @@ export default {
         { name: 'Kenneth Matthew Lanante', role: 'Software Developer', image: require('../assets/team/ken.png') },
         { name: 'Jericho Dave Terado', role: 'Software Developer', image: require('../assets/team/jed.png') },
         { name: 'Sean Nicole Lino', role: 'Software Developer', image: require('../assets/team/sean.png') },
-        { name: 'Felix Flores', role: 'Software Developer', image: require('../assets/team/felix.png') },
         { name: 'Sherel Jade Calixto', role: 'Software Developer', image: require('../assets/team/sherel.png') },
         { name: 'Arvin Lesigues', role: 'Software Developer', image: require('../assets/team/arvin.png') },
         { name: 'Carl Joshua Regis', role: 'Software Developer', image: require('../assets/team/carl.png') },
         { name: 'Drake Carcellar', role: 'Software Developer', image: require('../assets/team/drake.png') },
-        { name: 'Michael Omisol', role: 'Software Developer', image: require('../assets/team/michael.png') },
-        { name: 'John Anthony Dilao', role: 'Software Developer', image: require('../assets/team/nio.png') },
-        { name: 'Adrian Salave', role: 'Software Tester', image: require('../assets/team/adrian.png') }
+        { name: 'John Anthony Dilao', role: 'Software Developer', image: require('../assets/team/nio.png') }
       ]
     }
   }
