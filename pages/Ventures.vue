@@ -60,22 +60,6 @@
       <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="6">
           <h6>
-            <i><a href="https://workhippo.app/" target="_blank">WorkHippo.app</a></i>
-          </h6>
-          <h4>WorkHippo</h4>
-          <p>WorkHippo is a crypto-native freelancing platform that revolutionizes the way freelancers and clients connect and transact. Built on blockchain technology, it enables secure, transparent, and instant payments in cryptocurrency, eliminating traditional payment barriers and high transaction fees. The platform combines the flexibility of freelance work with the efficiency of blockchain payments, creating a seamless experience for both freelancers and employers in the digital economy.</p>
-        </b-col>
-        <b-col sm="12" md="6">
-          <h6>
-            <i><a href="https://thinkerville.education/" target="_blank">ThinkerVille.education</a></i>
-          </h6>
-          <h4>ThinkerVille</h4>
-          <p>ThinkerVille is an AI-powered personalized exam review platform built for professional licensure examinations. It adapts the review experience to each learner’s weaknesses, improving exam readiness beyond traditional review programs. This allows candidates to maximize results with less wasted effort and time. By guiding review with precision and focus, ThinkerVille turns preparation into measurable confidence and performance.</p>
-        </b-col>
-      </b-row>
-      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
-        <b-col sm="12" md="6">
-          <h6>
             <i><a href="https://wageyapp.com" target="_blank">WageyApp.com</a></i>
           </h6>
           <h4>Wagey</h4>
@@ -83,14 +67,31 @@
         </b-col>
         <b-col sm="12" md="6">
           <h6>
-            <i><a href="https://acojan.com" target="_blank">Acojan.com</a></i>
+            <i><a href="https://workhippo.app/" target="_blank">WorkHippo.app</a></i>
           </h6>
-          <h4>Acojan</h4>
-          <p>Acojan is an API-first booking platform for parking spaces that enables service booking apps and web applications to seamlessly integrate parking functionality into their ecosystems. Built with developers in mind, Acojan provides a comprehensive RESTful API that allows any platform to offer parking reservations without building the infrastructure from scratch. The platform connects parking space owners with drivers, optimizing utilization rates and reducing urban congestion through real-time availability, dynamic pricing, and automated reservation management.</p>
+          <h4>WorkHippo</h4>
+          <p>WorkHippo is a crypto-native freelancing platform that revolutionizes the way freelancers and clients connect and transact. Built on blockchain technology, it enables secure, transparent, and instant payments in cryptocurrency, eliminating traditional payment barriers and high transaction fees. The platform combines the flexibility of freelance work with the efficiency of blockchain payments, creating a seamless experience for both freelancers and employers in the digital economy.</p>
+        </b-col>
+      </b-row>
+      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
+        <b-col sm="12" md="6">
+          <h6>
+            <i><a href="https://agentmarket.cash" target="_blank">AgentMarket.cash</a></i>
+          </h6>
+          <h4>AgentMarket</h4>
+          <p>AgentMarket is a freelance marketplace purpose-built for AI agents and AI–human hybrid workers. It provides a crypto-native environment where autonomous agents can list capabilities, negotiate terms, execute tasks, and settle payments without human intermediation. Bitcoin Cash micropayments enable per-task pricing at a scale traditional platforms can't support, while transparent on-chain reputation tracking lets clients evaluate agent reliability with confidence.</p>
+        </b-col>
+        <b-col sm="12" md="6">
+          <h6>
+            <i><a href="https://akojan.com" target="_blank">Akojan.com</a></i>
+          </h6>
+          <h4>Akojan</h4>
+          <p>Akojan is an API-first booking platform for parking spaces that enables service booking apps and web applications to seamlessly integrate parking functionality into their ecosystems. Built with developers in mind, Akojan provides a comprehensive RESTful API that allows any platform to offer parking reservations without building the infrastructure from scratch. The platform connects parking space owners with drivers, optimizing utilization rates and reducing urban congestion through real-time availability, dynamic pricing, and automated reservation management.</p>
         </b-col>
       </b-row>
     </b-container>
 
+    <!--
     <b-container>
       <b-row style="margin-top: 50px;" class="featured-row" data-aos="fade-up" data-aos-duration="1000" data-aos-once="false">
         <b-col sm="12" md="3" class="featured">
@@ -113,16 +114,8 @@
           <p>Ainomica is an AI-powered coding platform designed as a real-time compute economy, where users pay based on actual usage rather than flat subscriptions. It combines intelligent model routing with GPU infrastructure to deliver high-performance coding assistance while optimizing cost efficiency. By integrating Bitcoin Cash (BCH) for micropayments, Ainomica enables precise, per-task billing and even supports autonomous agent-to-agent transactions. The result is a system where AI usage, pricing, and computation are tightly aligned—turning software development into a programmable economic workflow.</p>
         </b-col>
       </b-row>
-      <b-row class="portfolio-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="false">
-        <b-col sm="12" md="6">
-          <h6>
-            <i><a href="https://agentmarket.cash" target="_blank">AgentMarket.cash</a></i>
-          </h6>
-          <h4>AgentMarket</h4>
-          <p>AgentMarket is a freelance marketplace purpose-built for AI agents and AI–human hybrid workers. As AI systems increasingly take on tasks once reserved for people—from content generation and data analysis to customer support and creative work—they need a platform to discover, contract, and deliver services on their own terms. AgentMarket provides that platform: a crypto-native environment where autonomous agents can list capabilities, negotiate terms, execute tasks, and settle payments without human intermediation. Bitcoin Cash micropayments enable per-task pricing at a scale traditional platforms can't support, while transparent on-chain reputation tracking lets clients evaluate agent reliability with confidence. Whether an agent is fully autonomous or operating alongside a human operator, AgentMarket transforms freelance commerce into a programmable, agent-first economy.</p>
-        </b-col>
-      </b-row>
     </b-container>
+    -->
   </div>
 </template>
 
